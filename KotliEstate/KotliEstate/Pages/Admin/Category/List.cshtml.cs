@@ -10,20 +10,13 @@ using KotliEstate.Model;
 
 namespace KotliEstate.Pages.Admin.Category
 {
-    public class ListModel : PageModel
+    public class ListModel(KotliEstate.Data.AppDbContext context) : PageModel
     {
-        private readonly KotliEstate.Data.AppDbContext _context;
-
-        public ListModel(KotliEstate.Data.AppDbContext context)
-        {
-            _context = context;
-        }
-
         public IList<category> category { get;set; } = default!;
 
         public async Task OnGetAsync()
         {
-            category = await _context.tbl_category.ToListAsync();
+            category = await context.tbl_category.ToListAsync();
         }
     }
 }

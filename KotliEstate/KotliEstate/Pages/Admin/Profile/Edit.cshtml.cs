@@ -15,6 +15,7 @@ namespace KotliEstate.Pages.Admin.Profile
     {
         private readonly KotliEstate.Data.AppDbContext _context;
 
+        
         public EditModel(KotliEstate.Data.AppDbContext context)
         {
             _context = context;
@@ -66,7 +67,7 @@ namespace KotliEstate.Pages.Admin.Profile
                 }
             }
 
-            return RedirectToPage("./Index");
+            return RedirectToPage("./List");
         }
 
         private bool ProfileExists(int id)
