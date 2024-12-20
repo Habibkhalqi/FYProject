@@ -1,0 +1,66 @@
+@page
+@model KotliEstate.Pages.Admin.Profile.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Profile</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Profile.Name" class="control-label"></label>
+                <input asp-for="Profile.Name" class="form-control" />
+                <span asp-validation-for="Profile.Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Profile.Address" class="control-label"></label>
+                <input asp-for="Profile.Address" class="form-control" />
+                <span asp-validation-for="Profile.Address" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Profile.Phone" class="control-label"></label>
+                <input asp-for="Profile.Phone" class="form-control" />
+                <span asp-validation-for="Profile.Phone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Profile.Email" class="control-label"></label>
+                <input asp-for="Profile.Email" class="form-control" />
+                <span asp-validation-for="Profile.Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Profile.Twitter" class="control-label"></label>
+                <input asp-for="Profile.Twitter" class="form-control" />
+                <span asp-validation-for="Profile.Twitter" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Profile.Facebook" class="control-label"></label>
+                <input asp-for="Profile.Facebook" class="form-control" />
+                <span asp-validation-for="Profile.Facebook" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Profile.Youtube" class="control-label"></label>
+                <input asp-for="Profile.Youtube" class="form-control" />
+                <span asp-validation-for="Profile.Youtube" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Profile.LinkedIn" class="control-label"></label>
+                <input asp-for="Profile.LinkedIn" class="form-control" />
+                <span asp-validation-for="Profile.LinkedIn" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
