@@ -7961,6 +7961,14 @@
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\vendor\\_rfs.scss"
     },
     {
+      "Id": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\uploaded_image\\testimonial\\1702330340484.jpeg",
+      "PackagePath": "staticwebassets\\uploaded_image\\testimonial\\1702330340484.jpeg"
+    },
+    {
+      "Id": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\uploaded_image\\testimonial\\ihpne.png",
+      "PackagePath": "staticwebassets\\uploaded_image\\testimonial\\ihpne.png"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.KotliEstate.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

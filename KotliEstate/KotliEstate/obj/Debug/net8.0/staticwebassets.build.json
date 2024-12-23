@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Vhnkm66TPJxxXWgWhSHEd7LWAJoWKxgy2pHx9p9O3Jk=",
+  "Hash": "tzjGQE+y+4aFC3emwzRIRzz3dtwHzOIvW/ddECA/mmg=",
   "Source": "KotliEstate",
   "BasePath": "_content/KotliEstate",
   "Mode": "Default",
@@ -37844,6 +37844,44 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\vendor\\_rfs.scss"
+    },
+    {
+      "Identity": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\uploaded_image\\testimonial\\1702330340484.jpeg",
+      "SourceId": "KotliEstate",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\",
+      "BasePath": "_content/KotliEstate",
+      "RelativePath": "uploaded_image/testimonial/1702330340484.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploaded_image\\testimonial\\1702330340484.jpeg"
+    },
+    {
+      "Identity": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\uploaded_image\\testimonial\\ihpne.png",
+      "SourceId": "KotliEstate",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\",
+      "BasePath": "_content/KotliEstate",
+      "RelativePath": "uploaded_image/testimonial/ihpne.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploaded_image\\testimonial\\ihpne.png"
     }
   ]
 }

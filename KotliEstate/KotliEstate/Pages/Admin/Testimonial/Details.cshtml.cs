@@ -28,16 +28,16 @@ namespace KotliEstate.Pages.Admin.Testimonial
                 return NotFound();
             }
 
-            var testimonial = await _context.tbl_testimonial.FirstOrDefaultAsync(m => m.Id == id);
+            // Fetch the testimonial from the database
+            testimonial = await _context.tbl_testimonial.FirstOrDefaultAsync(m => m.Id == id);
+
             if (testimonial == null)
             {
                 return NotFound();
             }
-            else
-            {
-                testimonial = testimonial;
-            }
+
             return Page();
         }
+
     }
 }
