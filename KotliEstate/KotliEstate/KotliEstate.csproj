@@ -28,7 +28,10 @@
     <ItemGroup>
       <Folder Include="Pages\Admin\Category\" />
       <Folder Include="Pages\Admin\Profile\" />
+      <Folder Include="Pages\Admin\Testimonial\" />
       <Folder Include="wwwroot\Admin\" />
+      <Folder Include="wwwroot\uploaded_image\property\" />
+      <Folder Include="wwwroot\uploaded_image\testimonial\" />
     </ItemGroup>
 
 </Project>

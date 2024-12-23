@@ -8,22 +8,22 @@ using Microsoft.EntityFrameworkCore;
 using KotliEstate.Data;
 using KotliEstate.Model;
 
-namespace KotliEstate.Pages.Admin.Category
+namespace KotliEstate.Pages.Admin.Testimonial
 {
-    public class ListModel : PageModel
+    public class IndexModel : PageModel
     {
         private readonly KotliEstate.Data.AppDbContext _context;
 
-        public ListModel(KotliEstate.Data.AppDbContext context)
+        public IndexModel(KotliEstate.Data.AppDbContext context)
         {
             _context = context;
         }
 
-        public IList<category> category { get;set; } = default!;
+        public IList<testimonial> testimonial { get;set; } = default!;
 
         public async Task OnGetAsync()
         {
-            category = await _context.tbl_category.ToListAsync();
+            testimonial = await _context.tbl_testimonial.ToListAsync();
         }
     }
 }

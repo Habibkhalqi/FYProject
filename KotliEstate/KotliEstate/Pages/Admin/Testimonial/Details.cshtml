@@ -1,0 +1,43 @@
+@page
+@model KotliEstate.Pages.Admin.Testimonial.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>testimonial</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.testimonial.Name)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.testimonial.Name)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.testimonial.Professional)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.testimonial.Professional)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.testimonial.Review)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.testimonial.Review)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.testimonial.Image)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.testimonial.Image)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.testimonial.Id">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>

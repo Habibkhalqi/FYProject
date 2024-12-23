@@ -30,14 +30,17 @@ namespace KotliEstate.Pages.Admin.Category
                 return NotFound();
             }
 
-            var category =  await _context.tbl_category.FirstOrDefaultAsync(m => m.Id == id);
+            // Database se category retrieve karke BindProperty wali property me set kar rahe hain
+            category = await _context.tbl_category.FirstOrDefaultAsync(m => m.Id == id);
+    
             if (category == null)
             {
                 return NotFound();
             }
-            category = category;
+
             return Page();
         }
+
 
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more information, see https://aka.ms/RazorPagesCRUD.

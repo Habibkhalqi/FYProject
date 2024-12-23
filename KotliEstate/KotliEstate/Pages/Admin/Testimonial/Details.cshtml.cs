@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using KotliEstate.Data;
 using KotliEstate.Model;
 
-namespace KotliEstate.Pages.Admin.Category
+namespace KotliEstate.Pages.Admin.Testimonial
 {
     public class DetailsModel : PageModel
     {
@@ -19,7 +19,7 @@ namespace KotliEstate.Pages.Admin.Category
             _context = context;
         }
 
-        public category category { get; set; } = default!;
+        public testimonial testimonial { get; set; } = default!;
 
         public async Task<IActionResult> OnGetAsync(int? id)
         {
@@ -28,12 +28,15 @@ namespace KotliEstate.Pages.Admin.Category
                 return NotFound();
             }
 
-            var category = await _context.tbl_category.FirstOrDefaultAsync(m => m.Id == id);
-            if (category == null)
+            var testimonial = await _context.tbl_testimonial.FirstOrDefaultAsync(m => m.Id == id);
+            if (testimonial == null)
             {
                 return NotFound();
             }
-           
+            else
+            {
+                testimonial = testimonial;
+            }
             return Page();
         }
     }
