@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace KotliEstate.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20241219194029_Initial")]
-    partial class Initial
+    [Migration("20241226164749_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

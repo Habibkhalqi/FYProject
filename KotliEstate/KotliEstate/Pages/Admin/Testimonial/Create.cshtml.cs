@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using KotliEstate.Data;
 using KotliEstate.Model;
+using KotliEstate.Service;
 
 namespace KotliEstate.Pages.Admin.Testimonial
 {
@@ -28,16 +29,14 @@ namespace KotliEstate.Pages.Admin.Testimonial
 
         [BindProperty] public testimonial testimonial { get; set; } = default!;
 
-        // For more information, see https://aka.ms/RazorPagesCRUD.
+        
         public IActionResult OnPost()
         {
+            
             string imagename = testimonial.Picture.FileName.ToString();
             
-            var FolderPath = Path.Combine(env.WebRootPath, "uploaded_image/testimonial");
-            
-            var ImagePath = Path.Combine(FolderPath, imagename);
-            
-            var PicFileStream = new FileStream(ImagePath, FileMode.Create);
+           var PicFileStream =  Helper.UploadImage(imagename, "testimonial", env);
+           
             testimonial.Picture.CopyTo(PicFileStream);
             
             testimonial.Image = imagename;

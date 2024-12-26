@@ -69,7 +69,6 @@ D:\FYProject\KotliEstate\KotliEstate\bin\Debug\net8.0\System.Composition.Runtime
 D:\FYProject\KotliEstate\KotliEstate\bin\Debug\net8.0\System.Composition.TypedParts.dll
 D:\FYProject\KotliEstate\KotliEstate\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
 D:\FYProject\KotliEstate\KotliEstate\bin\Debug\net8.0\System.Drawing.Common.dll
-D:\FYProject\KotliEstate\KotliEstate\bin\Debug\net8.0\System.Formats.Asn1.dll
 D:\FYProject\KotliEstate\KotliEstate\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
 D:\FYProject\KotliEstate\KotliEstate\bin\Debug\net8.0\System.Memory.Data.dll
 D:\FYProject\KotliEstate\KotliEstate\bin\Debug\net8.0\System.Runtime.Caching.dll
@@ -136,7 +135,6 @@ D:\FYProject\KotliEstate\KotliEstate\bin\Debug\net8.0\runtimes\win-x64\native\Mi
 D:\FYProject\KotliEstate\KotliEstate\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
 D:\FYProject\KotliEstate\KotliEstate\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 D:\FYProject\KotliEstate\KotliEstate\obj\Debug\net8.0\KotliEstate.csproj.AssemblyReference.cache
-D:\FYProject\KotliEstate\KotliEstate\obj\Debug\net8.0\KotliEstate.csproj.CopyComplete
 D:\FYProject\KotliEstate\KotliEstate\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
 D:\FYProject\KotliEstate\KotliEstate\bin\Debug\net8.0\Microsoft.Build.dll
 D:\FYProject\KotliEstate\KotliEstate\bin\Debug\net8.0\Microsoft.Build.Framework.dll
@@ -284,3 +282,7 @@ D:\FYProject\KotliEstate\KotliEstate\bin\Debug\net8.0\runtimes\win\lib\net7.0\Sy
 D:\FYProject\KotliEstate\KotliEstate\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 D:\FYProject\KotliEstate\KotliEstate\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
 D:\FYProject\KotliEstate\KotliEstate\obj\Debug\net8.0\KotliEstate.sourcelink.json
+D:\FYProject\KotliEstate\KotliEstate\bin\Debug\net8.0\KotliEstate.staticwebassets.endpoints.json
+D:\FYProject\KotliEstate\KotliEstate\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\FYProject\KotliEstate\KotliEstate\obj\Debug\net8.0\staticwebassets\msbuild.KotliEstate.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\FYProject\KotliEstate\KotliEstate\obj\Debug\net8.0\KotliEst.5DBC040B.Up2Date

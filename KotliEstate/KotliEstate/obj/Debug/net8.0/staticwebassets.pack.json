@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "D:\\FYProject\\KotliEstate\\KotliEstate\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\KotliEstate.bundle.scp.css",
-      "PackagePath": "staticwebassets\\KotliEstate.bundle.scp.css"
+      "PackagePath": "staticwebassets\\KotliEstate.kvxpqnybj2.bundle.scp.css"
     },
     {
       "Id": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\Admin\\css\\sb-admin-2.css",
@@ -7965,8 +7965,16 @@
       "PackagePath": "staticwebassets\\uploaded_image\\testimonial\\1702330340484.jpeg"
     },
     {
-      "Id": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\uploaded_image\\testimonial\\ihpne.png",
-      "PackagePath": "staticwebassets\\uploaded_image\\testimonial\\ihpne.png"
+      "Id": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\uploaded_image\\testimonial\\202308161345_gT7lnvS6d22VwXbv.webp",
+      "PackagePath": "staticwebassets\\uploaded_image\\testimonial\\202308161345_gT7lnvS6d22VwXbv.webp"
+    },
+    {
+      "Id": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\uploaded_image\\testimonial\\desktop-source-code-and-technology-background-developer-or-programer-with-coding-and-programming-wallpaper-by-computer-language-and-source-code-com-PF3NWT.jpg",
+      "PackagePath": "staticwebassets\\uploaded_image\\testimonial\\desktop-source-code-and-technology-background-developer-or-programer-with-coding-and-programming-wallpaper-by-computer-language-and-source-code-com-PF3NWT.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.KotliEstate.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.KotliEstate.Microsoft.AspNetCore.StaticWebAssets.props",
