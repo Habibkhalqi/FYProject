@@ -23880,6 +23880,18 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-2Ep9SBZfrP6nBvC1iT4RAdid0etIwFC5zfXukG/gDso="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"64684"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u00222Ep9SBZfrP6nBvC1iT4RAdid0etIwFC5zfXukG/gDso=\u0022"},{"Name":"Last-Modified","Value":"Thu, 26 Dec 2024 07:09:15 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KotliEstate/uploaded_image/property/house.dzvqdz37dt.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploaded_image\property\house.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"dzvqdz37dt"},{"Name":"integrity","Value":"sha256-aa3mcfpwo601Lf4aFeBihxYpJbR2kCXafJP0wgFExdg="},{"Name":"label","Value":"_content/KotliEstate/uploaded_image/property/house.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"376315"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022aa3mcfpwo601Lf4aFeBihxYpJbR2kCXafJP0wgFExdg=\u0022"},{"Name":"Last-Modified","Value":"Sat, 28 Dec 2024 19:52:49 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/KotliEstate/uploaded_image/property/house.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploaded_image\property\house.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-aa3mcfpwo601Lf4aFeBihxYpJbR2kCXafJP0wgFExdg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"376315"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022aa3mcfpwo601Lf4aFeBihxYpJbR2kCXafJP0wgFExdg=\u0022"},{"Name":"Last-Modified","Value":"Sat, 28 Dec 2024 19:52:49 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/KotliEstate/uploaded_image/testimonial/1702330340484.89t3ujsyoz.jpeg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploaded_image\testimonial\1702330340484.jpeg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -23891,30 +23903,6 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-3ACclZEI5x4FMaCopxtYZ2wfBsUMZ3bXsx0YJvDR7Lw="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"11933"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00223ACclZEI5x4FMaCopxtYZ2wfBsUMZ3bXsx0YJvDR7Lw=\u0022"},{"Name":"Last-Modified","Value":"Thu, 26 Dec 2024 07:09:15 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/KotliEstate/uploaded_image/testimonial/202308161345_gT7lnvS6d22VwXbv.83j5v7luhi.webp">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploaded_image\testimonial\202308161345_gT7lnvS6d22VwXbv.webp'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"83j5v7luhi"},{"Name":"integrity","Value":"sha256-5LoZCZxMaM9zXwC98XcguOlKthUKpw/Cyrmg9lDxdgY="},{"Name":"label","Value":"_content/KotliEstate/uploaded_image/testimonial/202308161345_gT7lnvS6d22VwXbv.webp"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"10898"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u00225LoZCZxMaM9zXwC98XcguOlKthUKpw/Cyrmg9lDxdgY=\u0022"},{"Name":"Last-Modified","Value":"Thu, 26 Dec 2024 19:18:01 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/KotliEstate/uploaded_image/testimonial/202308161345_gT7lnvS6d22VwXbv.webp">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploaded_image\testimonial\202308161345_gT7lnvS6d22VwXbv.webp'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-5LoZCZxMaM9zXwC98XcguOlKthUKpw/Cyrmg9lDxdgY="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"10898"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u00225LoZCZxMaM9zXwC98XcguOlKthUKpw/Cyrmg9lDxdgY=\u0022"},{"Name":"Last-Modified","Value":"Thu, 26 Dec 2024 19:18:01 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/KotliEstate/uploaded_image/testimonial/desktop-source-code-and-technology-background-developer-or-programer-with-coding-and-programming-wallpaper-by-computer-language-and-source-code-com-PF3NWT.5g0u4df3vy.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploaded_image\testimonial\desktop-source-code-and-technology-background-developer-or-programer-with-coding-and-programming-wallpaper-by-computer-language-and-source-code-com-PF3NWT.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"5g0u4df3vy"},{"Name":"integrity","Value":"sha256-OxqGdXRUveTPra9I7n7gCQ8oEK3iCjw78Ospr/urTM8="},{"Name":"label","Value":"_content/KotliEstate/uploaded_image/testimonial/desktop-source-code-and-technology-background-developer-or-programer-with-coding-and-programming-wallpaper-by-computer-language-and-source-code-com-PF3NWT.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"149705"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022OxqGdXRUveTPra9I7n7gCQ8oEK3iCjw78Ospr/urTM8=\u0022"},{"Name":"Last-Modified","Value":"Thu, 26 Dec 2024 18:24:12 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/KotliEstate/uploaded_image/testimonial/desktop-source-code-and-technology-background-developer-or-programer-with-coding-and-programming-wallpaper-by-computer-language-and-source-code-com-PF3NWT.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploaded_image\testimonial\desktop-source-code-and-technology-background-developer-or-programer-with-coding-and-programming-wallpaper-by-computer-language-and-source-code-com-PF3NWT.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-OxqGdXRUveTPra9I7n7gCQ8oEK3iCjw78Ospr/urTM8="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"149705"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022OxqGdXRUveTPra9I7n7gCQ8oEK3iCjw78Ospr/urTM8=\u0022"},{"Name":"Last-Modified","Value":"Thu, 26 Dec 2024 18:24:12 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
   </ItemGroup>
 </Project>

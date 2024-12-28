@@ -5,7 +5,7 @@
 namespace KotliEstate.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialCreate : Migration
+    public partial class initial : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -66,13 +66,20 @@ namespace KotliEstate.Migrations
                 {
                     id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
+                    FirstName = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    LastName = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    CNIC = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    MobileNumber = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Title = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Price = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Address = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Category = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Area = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Number_Of_Bedrooms = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Number_Of_Bathrooms = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Area = table.Column<int>(type: "int", nullable: false),
+                    Types_Of_Properties = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Number_Of_Bedrooms = table.Column<int>(type: "int", nullable: true),
+                    Number_Of_Bathrooms = table.Column<int>(type: "int", nullable: true),
+                    Status = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Slug = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     image = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>

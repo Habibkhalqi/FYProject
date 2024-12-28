@@ -1,0 +1,110 @@
+@page
+@using Microsoft.CodeAnalysis.Options
+@model KotliEstate.Pages.Admin.Property.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>property</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="property.FirstName" class="control-label"></label>
+                <input asp-for="property.FirstName" class="form-control" />
+                <span asp-validation-for="property.FirstName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="property.LastName" class="control-label"></label>
+                <input asp-for="property.LastName" class="form-control" />
+                <span asp-validation-for="property.LastName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="property.CNIC" class="control-label"></label>
+                <input asp-for="property.CNIC" class="form-control" />
+                <span asp-validation-for="property.CNIC" class="text-danger"></span>
+            </div>
+           
+            <div class="form-group">
+                <label asp-for="property.MobileNumber" class="control-label"></label>
+                <input asp-for="property.MobileNumber" class="form-control" />
+                <span asp-validation-for="property.MobileNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="property.Title" class="control-label"></label>
+                <input asp-for="property.Title" class="form-control" />
+                <span asp-validation-for="property.Title" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="property.Price" class="control-label"></label>
+                <input asp-for="property.Price" class="form-control" />
+                <span asp-validation-for="property.Price" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="property.Address" class="control-label"></label>
+                <input asp-for="property.Address" class="form-control" />
+                <span asp-validation-for="property.Address" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="property.Category" class="control-label"></label>
+                
+                <span asp-validation-for="property.Category" class="text-danger"></span>
+                <select asp-for="property.Category" class="form-control">
+                    <option value="">-----------Select Category--------------</option>
+                    @foreach (var cat in @Model.category)
+                    {
+                        <option>@cat.Name</option>
+                    }
+                </select>
+            </div>
+            <div class="form-group">
+                <label asp-for="property.Area" class="control-label"></label>
+                <input asp-for="property.Area" class="form-control" />
+                <span asp-validation-for="property.Area" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="property.Types_Of_Properties" class="control-label"></label>
+                <input asp-for="property.Types_Of_Properties" class="form-control" />
+                <span asp-validation-for="property.Types_Of_Properties" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="property.Number_Of_Bedrooms" class="control-label"></label>
+                <input asp-for="property.Number_Of_Bedrooms" class="form-control" />
+                <span asp-validation-for="property.Number_Of_Bedrooms" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="property.Number_Of_Bathrooms" class="control-label"></label>
+                <input asp-for="property.Number_Of_Bathrooms" class="form-control" />
+                <span asp-validation-for="property.Number_Of_Bathrooms" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="property.Status" class="control-label"></label>
+                <input asp-for="property.Status" class="form-control" />
+                <span asp-validation-for="property.Status" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="property.Slug" class="control-label"></label>
+                <input asp-for="property.Slug" class="form-control" />
+                <span asp-validation-for="property.Slug" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="property.image" class="control-label"></label>
+                <input asp-for="property.picture" class="form-control" />
+                
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
