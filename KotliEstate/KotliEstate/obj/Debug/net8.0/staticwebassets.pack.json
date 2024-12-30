@@ -7961,8 +7961,12 @@
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\vendor\\_rfs.scss"
     },
     {
-      "Id": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\uploaded_image\\property\\house.jpg",
-      "PackagePath": "staticwebassets\\uploaded_image\\property\\house.jpg"
+      "Id": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\uploaded_image\\property\\desktop-source-code-and-technology-background-developer-or-programer-with-coding-and-programming-wallpaper-by-computer-language-and-source-code-com-PF3NWT.jpg",
+      "PackagePath": "staticwebassets\\uploaded_image\\property\\desktop-source-code-and-technology-background-developer-or-programer-with-coding-and-programming-wallpaper-by-computer-language-and-source-code-com-PF3NWT.jpg"
+    },
+    {
+      "Id": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\uploaded_image\\property\\secondhous.jpg",
+      "PackagePath": "staticwebassets\\uploaded_image\\property\\secondhous.jpg"
     },
     {
       "Id": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\uploaded_image\\testimonial\\1702330340484.jpeg",

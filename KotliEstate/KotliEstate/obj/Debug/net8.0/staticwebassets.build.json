@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8eYRtUIoDv8Dktitr5RpwGZHOg/pfCCVHA0LDNWy9c0=",
+  "Hash": "ORtRanj6zl5bM8VQzGW1V0VwUZULIOsvYJMvXayjZvk=",
   "Source": "KotliEstate",
   "BasePath": "_content/KotliEstate",
   "Mode": "Default",
@@ -41828,12 +41828,12 @@
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\vendor\\_rfs.scss"
     },
     {
-      "Identity": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\uploaded_image\\property\\house.jpg",
+      "Identity": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\uploaded_image\\property\\desktop-source-code-and-technology-background-developer-or-programer-with-coding-and-programming-wallpaper-by-computer-language-and-source-code-com-PF3NWT.jpg",
       "SourceId": "KotliEstate",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\",
       "BasePath": "_content/KotliEstate",
-      "RelativePath": "uploaded_image/property/house#[.{fingerprint}]?.jpg",
+      "RelativePath": "uploaded_image/property/desktop-source-code-and-technology-background-developer-or-programer-with-coding-and-programming-wallpaper-by-computer-language-and-source-code-com-PF3NWT#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -41842,11 +41842,32 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "dzvqdz37dt",
-      "Integrity": "aa3mcfpwo601Lf4aFeBihxYpJbR2kCXafJP0wgFExdg=",
+      "Fingerprint": "5g0u4df3vy",
+      "Integrity": "OxqGdXRUveTPra9I7n7gCQ8oEK3iCjw78Ospr/urTM8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploaded_image\\property\\house.jpg"
+      "OriginalItemSpec": "wwwroot\\uploaded_image\\property\\desktop-source-code-and-technology-background-developer-or-programer-with-coding-and-programming-wallpaper-by-computer-language-and-source-code-com-PF3NWT.jpg"
+    },
+    {
+      "Identity": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\uploaded_image\\property\\secondhous.jpg",
+      "SourceId": "KotliEstate",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\",
+      "BasePath": "_content/KotliEstate",
+      "RelativePath": "uploaded_image/property/secondhous#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "124bxpf1b5",
+      "Integrity": "tyEh//FfFJCaRRyrXezJ06uSuyxnPnsUZcrS7U+fKbI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploaded_image\\property\\secondhous.jpg"
     },
     {
       "Identity": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\uploaded_image\\testimonial\\1702330340484.jpeg",
@@ -205134,8 +205155,8 @@
       ]
     },
     {
-      "Route": "uploaded_image/property/house.dzvqdz37dt.jpg",
-      "AssetFile": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\uploaded_image\\property\\house.jpg",
+      "Route": "uploaded_image/property/desktop-source-code-and-technology-background-developer-or-programer-with-coding-and-programming-wallpaper-by-computer-language-and-source-code-com-PF3NWT.5g0u4df3vy.jpg",
+      "AssetFile": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\uploaded_image\\property\\desktop-source-code-and-technology-background-developer-or-programer-with-coding-and-programming-wallpaper-by-computer-language-and-source-code-com-PF3NWT.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -205144,7 +205165,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "376315"
+          "Value": "149705"
         },
         {
           "Name": "Content-Type",
@@ -205152,11 +205173,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"aa3mcfpwo601Lf4aFeBihxYpJbR2kCXafJP0wgFExdg=\""
+          "Value": "\"OxqGdXRUveTPra9I7n7gCQ8oEK3iCjw78Ospr/urTM8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 28 Dec 2024 19:52:49 GMT"
+          "Value": "Mon, 30 Dec 2024 22:27:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -205166,21 +205187,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "dzvqdz37dt"
+          "Value": "5g0u4df3vy"
         },
         {
           "Name": "label",
-          "Value": "uploaded_image/property/house.jpg"
+          "Value": "uploaded_image/property/desktop-source-code-and-technology-background-developer-or-programer-with-coding-and-programming-wallpaper-by-computer-language-and-source-code-com-PF3NWT.jpg"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-aa3mcfpwo601Lf4aFeBihxYpJbR2kCXafJP0wgFExdg="
+          "Value": "sha256-OxqGdXRUveTPra9I7n7gCQ8oEK3iCjw78Ospr/urTM8="
         }
       ]
     },
     {
-      "Route": "uploaded_image/property/house.jpg",
-      "AssetFile": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\uploaded_image\\property\\house.jpg",
+      "Route": "uploaded_image/property/desktop-source-code-and-technology-background-developer-or-programer-with-coding-and-programming-wallpaper-by-computer-language-and-source-code-com-PF3NWT.jpg",
+      "AssetFile": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\uploaded_image\\property\\desktop-source-code-and-technology-background-developer-or-programer-with-coding-and-programming-wallpaper-by-computer-language-and-source-code-com-PF3NWT.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -205189,7 +205210,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "376315"
+          "Value": "149705"
         },
         {
           "Name": "Content-Type",
@@ -205197,11 +205218,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"aa3mcfpwo601Lf4aFeBihxYpJbR2kCXafJP0wgFExdg=\""
+          "Value": "\"OxqGdXRUveTPra9I7n7gCQ8oEK3iCjw78Ospr/urTM8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 28 Dec 2024 19:52:49 GMT"
+          "Value": "Mon, 30 Dec 2024 22:27:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -205211,7 +205232,89 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-aa3mcfpwo601Lf4aFeBihxYpJbR2kCXafJP0wgFExdg="
+          "Value": "sha256-OxqGdXRUveTPra9I7n7gCQ8oEK3iCjw78Ospr/urTM8="
+        }
+      ]
+    },
+    {
+      "Route": "uploaded_image/property/secondhous.124bxpf1b5.jpg",
+      "AssetFile": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\uploaded_image\\property\\secondhous.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1430572"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tyEh//FfFJCaRRyrXezJ06uSuyxnPnsUZcrS7U+fKbI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Dec 2024 22:35:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "124bxpf1b5"
+        },
+        {
+          "Name": "label",
+          "Value": "uploaded_image/property/secondhous.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tyEh//FfFJCaRRyrXezJ06uSuyxnPnsUZcrS7U+fKbI="
+        }
+      ]
+    },
+    {
+      "Route": "uploaded_image/property/secondhous.jpg",
+      "AssetFile": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\uploaded_image\\property\\secondhous.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1430572"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tyEh//FfFJCaRRyrXezJ06uSuyxnPnsUZcrS7U+fKbI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Dec 2024 22:35:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tyEh//FfFJCaRRyrXezJ06uSuyxnPnsUZcrS7U+fKbI="
         }
       ]
     },
