@@ -14,42 +14,43 @@
 <div class="row">
     <div class="col-md-4">
         <form method="post" enctype="multipart/form-data">
+            
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <input type="hidden" asp-for="property.id" />
+            <input type="hidden" asp-for="property.id"/>
             <input type="hidden" asp-for="property.image">
             <div class="form-group">
                 <label asp-for="property.FirstName" class="control-label"></label>
-                <input asp-for="property.FirstName" class="form-control" />
+                <input asp-for="property.FirstName" class="form-control"/>
                 <span asp-validation-for="property.FirstName" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="property.LastName" class="control-label"></label>
-                <input asp-for="property.LastName" class="form-control" />
+                <input asp-for="property.LastName" class="form-control"/>
                 <span asp-validation-for="property.LastName" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="property.CNIC" class="control-label"></label>
-                <input asp-for="property.CNIC" class="form-control" />
+                <input asp-for="property.CNIC" class="form-control"/>
                 <span asp-validation-for="property.CNIC" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="property.MobileNumber" class="control-label"></label>
-                <input asp-for="property.MobileNumber" class="form-control" />
+                <input asp-for="property.MobileNumber" class="form-control"/>
                 <span asp-validation-for="property.MobileNumber" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="property.Title" class="control-label"></label>
-                <input asp-for="property.Title" class="form-control" />
+                <input asp-for="property.Title" class="form-control"/>
                 <span asp-validation-for="property.Title" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="property.Price" class="control-label"></label>
-                <input asp-for="property.Price" class="form-control" />
+                <input asp-for="property.Price" class="form-control"/>
                 <span asp-validation-for="property.Price" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="property.Address" class="control-label"></label>
-                <input asp-for="property.Address" class="form-control" />
+                <input asp-for="property.Address" class="form-control"/>
                 <span asp-validation-for="property.Address" class="text-danger"></span>
             </div>
             <div class="form-group">
@@ -67,22 +68,22 @@
             </div>
             <div class="form-group">
                 <label asp-for="property.Area" class="control-label"></label>
-                <input asp-for="property.Area" class="form-control" />
+                <input asp-for="property.Area" class="form-control"/>
                 <span asp-validation-for="property.Area" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="property.Types_Of_Properties" class="control-label"></label>
-                <input asp-for="property.Types_Of_Properties" class="form-control" />
+                <input asp-for="property.Types_Of_Properties" class="form-control"/>
                 <span asp-validation-for="property.Types_Of_Properties" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="property.Number_Of_Bedrooms" class="control-label"></label>
-                <input asp-for="property.Number_Of_Bedrooms" class="form-control" />
+                <input asp-for="property.Number_Of_Bedrooms" class="form-control"/>
                 <span asp-validation-for="property.Number_Of_Bedrooms" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="property.Number_Of_Bathrooms" class="control-label"></label>
-                <input asp-for="property.Number_Of_Bathrooms" class="form-control" />
+                <input asp-for="property.Number_Of_Bathrooms" class="form-control"/>
                 <span asp-validation-for="property.Number_Of_Bathrooms" class="text-danger"></span>
             </div>
             <div class="form-group">
@@ -95,22 +96,22 @@
                     <option value="Approved">Approved</option>
                     <option value="Not Approved">Not Approved</option>
                 </select>
-                  </div>
+            </div>
             <div class="form-group">
                 <label asp-for="property.Slug" class="control-label"></label>
-                <input asp-for="property.Slug" class="form-control" />
+                <input asp-for="property.Slug" class="form-control"/>
                 <span asp-validation-for="property.Slug" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="property.image" class="control-label"></label>
-                <input asp-for="property.picture" class="form-control" />
+                <input asp-for="property.picture" class="form-control"/>
 
             </div>
-          
+
             <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+                <input type="submit" value="Save" class="btn btn-primary"/>
             </div>
-         
+
         </form>
     </div>
 </div>
