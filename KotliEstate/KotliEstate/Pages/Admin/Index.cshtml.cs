@@ -6,6 +6,9 @@ public class Index : PageModel
 {
     public void OnGet()
     {
-        
+        if(HttpContext.Session.GetString("flag") != "true")
+        {
+            Response.Redirect("/Admin/Login");
+        }
     }
 }

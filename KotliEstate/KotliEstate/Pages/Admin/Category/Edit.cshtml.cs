@@ -25,6 +25,10 @@ namespace KotliEstate.Pages.Admin.Category
 
         public async Task<IActionResult> OnGetAsync(int? id)
         {
+            if(HttpContext.Session.GetString("flag") != "true")
+            {
+                return RedirectToPage("/Admin/Login");
+            }
             if (id == null)
             {
                 return NotFound();

@@ -56,24 +56,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/FYProject/KotliEstate/KotliEstate/Pages/Admin/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/FYProject/KotliEstate/KotliEstate/Pages/Admin/Profile/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUHJvZmlsZVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/FYProject/KotliEstate/KotliEstate/Pages/Admin/Profile/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUHJvZmlsZVxEZWxldGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/FYProject/KotliEstate/KotliEstate/Pages/Admin/Profile/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUHJvZmlsZVxEZXRhaWxzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/FYProject/KotliEstate/KotliEstate/Pages/Admin/Profile/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUHJvZmlsZVxFZGl0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/FYProject/KotliEstate/KotliEstate/Pages/Admin/Profile/List.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUHJvZmlsZVxMaXN0LmNzaHRtbA==
+[D:/FYProject/KotliEstate/KotliEstate/Pages/Admin/Profile/ShowPages.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUHJvZmlsZVxTaG93UGFnZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/FYProject/KotliEstate/KotliEstate/Pages/Admin/Property/Create.cshtml]
@@ -126,6 +118,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/FYProject/KotliEstate/KotliEstate/Pages/index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcaW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FYProject/KotliEstate/KotliEstate/Pages/LogOut.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9nT3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/FYProject/KotliEstate/KotliEstate/Pages/property-for-rent.cshtml]

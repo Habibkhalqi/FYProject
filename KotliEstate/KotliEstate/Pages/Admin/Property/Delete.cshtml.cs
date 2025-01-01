@@ -28,6 +28,10 @@ namespace KotliEstate.Pages.Admin.Property
 
         public async Task<IActionResult> OnGetAsync(int? id)
         {
+            if(HttpContext.Session.GetString("flag") != "true")
+            {
+                return RedirectToPage("/Admin/Login");
+            }
             if (id == null)
             {
                 return NotFound();

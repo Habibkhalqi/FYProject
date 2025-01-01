@@ -23,6 +23,14 @@ namespace KotliEstate.Pages.Admin.Testimonial
 
         public async Task OnGetAsync()
         {
+            if(HttpContext.Session.GetString("flag") != "true")
+            {
+                Response.Redirect("/Admin/Login");
+            }
+            if(HttpContext.Session.GetString("flag") != "true")
+            {
+                Response.Redirect("/Admin/Login");
+            }
             testimonial = await _context.tbl_testimonial.ToListAsync();
         }
     }

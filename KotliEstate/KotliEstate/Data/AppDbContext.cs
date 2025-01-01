@@ -16,5 +16,6 @@ public class AppDbContext : DbContext
     public DbSet<category> tbl_category { get; set; }
     public DbSet<property> tbl_property { get; set; }
     public DbSet<testimonial> tbl_testimonial { get; set; }
+    public DbSet<User> tbl_User { get; set; }
     
 }

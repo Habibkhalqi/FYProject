@@ -23,6 +23,10 @@ namespace KotliEstate.Pages.Admin.Property
 
         public async Task OnGetAsync()
         {
+            if(HttpContext.Session.GetString("flag") != "true")
+            {
+                Response.Redirect("/Admin/Login");
+            }
             property = await _context.tbl_property.ToListAsync();
         }
     }

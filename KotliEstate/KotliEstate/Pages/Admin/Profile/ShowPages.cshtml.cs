@@ -10,11 +10,11 @@ using KotliEstate.Model;
 
 namespace KotliEstate.Pages.Admin.Profile
 {
-    public class ListModel : PageModel
+    public class ShowPagesModel : PageModel
     {
         private readonly KotliEstate.Data.AppDbContext _context;
 
-        public ListModel(KotliEstate.Data.AppDbContext context)
+        public ShowPagesModel(KotliEstate.Data.AppDbContext context)
         {
             _context = context;
         }
@@ -23,6 +23,10 @@ namespace KotliEstate.Pages.Admin.Profile
 
         public async Task OnGetAsync()
         {
+            if(HttpContext.Session.GetString("flag") != "true")
+            {
+                Response.Redirect("/Admin/Login");
+            }
             Profile = await _context.tbl_Profile.ToListAsync();
         }
     }

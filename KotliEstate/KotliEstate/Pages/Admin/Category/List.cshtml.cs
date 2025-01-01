@@ -23,6 +23,10 @@ namespace KotliEstate.Pages.Admin.Category
 
         public async Task OnGetAsync()
         {
+            if(HttpContext.Session.GetString("flag") != "true")
+            {
+                Response.Redirect("/Admin/Login");
+            }
             category = await _context.tbl_category.ToListAsync();
         }
     }

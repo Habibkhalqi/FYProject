@@ -21,6 +21,11 @@ namespace KotliEstate.Pages.Admin.Category
 
         public IActionResult OnGet()
         {
+            if(HttpContext.Session.GetString("flag") != "true")
+            {
+                return RedirectToPage("/Admin/Login");
+            }
+                
             return Page();
         }
 

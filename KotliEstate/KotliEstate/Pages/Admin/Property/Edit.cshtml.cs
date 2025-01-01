@@ -29,6 +29,10 @@ namespace KotliEstate.Pages.Admin.Property
 
         public async Task<IActionResult> OnGetAsync(int? id)
         {
+            if(HttpContext.Session.GetString("flag") != "true")
+            {
+                return RedirectToPage("/Admin/Login");
+            }
             if (id == null)
             {
                 return NotFound();
@@ -51,9 +55,11 @@ namespace KotliEstate.Pages.Admin.Property
             if (property.picture != null)
             {
                 string ImageName = property.picture.FileName.ToString();
-                Helper.DeleteImage(property.image,"property",_env);
                 property.picture.CopyTo(Helper.UploadImage(ImageName,"property", _env));
+                Helper.DeleteImage(property.image,"property",_env);
+
                 _context.tbl_property.Update(property);
+               
                 _context.SaveChanges();
             }
             else

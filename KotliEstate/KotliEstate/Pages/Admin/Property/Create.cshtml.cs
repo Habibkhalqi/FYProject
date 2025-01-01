@@ -25,6 +25,10 @@ namespace KotliEstate.Pages.Admin.Property
         public List<Model.category> category { get; set; }
         public IActionResult OnGet()
         {
+            if(HttpContext.Session.GetString("flag") != "true")
+            {
+                return RedirectToPage("/Admin/Login");
+            }
             category = _context.tbl_category.ToList();
             return Page();
         }
@@ -36,9 +40,9 @@ namespace KotliEstate.Pages.Admin.Property
         public IActionResult OnPost()
         {
             string ImageName = property.picture.FileName.ToString();
-            
-            property.picture.CopyTo(Helper.UploadImage(ImageName, "property", env));
-            
+            var myStream = Helper.UploadImage(ImageName, "property", env);
+            property.picture.CopyTo(myStream);
+            myStream.Dispose();
             property.image = ImageName;
             _context.tbl_property.Add(property);
             _context.SaveChanges();

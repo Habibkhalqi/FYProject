@@ -30,6 +30,10 @@ namespace KotliEstate.Pages.Admin.Profile
         // For more information, see https://aka.ms/RazorPagesCRUD.
         public async Task<IActionResult> OnPostAsync()
         {
+            if(HttpContext.Session.GetString("flag") != "true")
+            {
+                return RedirectToPage("/Admin/Login");
+            }
             if (!ModelState.IsValid)
             {
                 return Page();
@@ -38,7 +42,7 @@ namespace KotliEstate.Pages.Admin.Profile
             _context.tbl_Profile.Add(Profile);
             await _context.SaveChangesAsync();
 
-            return RedirectToPage("./List");
+            return Page();
         }
     }
 }
