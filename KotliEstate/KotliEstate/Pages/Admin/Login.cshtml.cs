@@ -7,7 +7,7 @@ namespace KotliEstate.Pages.Admin;
 public class Login : PageModel
 {
     private AppDbContext db;
-
+    [BindProperty]
     public User User1 { get; set; }
 
     public Login(AppDbContext db)
@@ -16,8 +16,10 @@ public class Login : PageModel
     }
     public IActionResult OnPost()
     {
+        
         var isUser = db.tbl_User?.Where(x=> x.Username == User1.Username && x.Password == User1.Password)
             .FirstOrDefault();
+      
         if (isUser != null)
         {
             HttpContext.Session.SetString("User", isUser.Username);

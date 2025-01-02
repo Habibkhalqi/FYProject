@@ -60,6 +60,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/FYProject/KotliEstate/KotliEstate/Pages/Admin/LogOut.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTG9nT3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/FYProject/KotliEstate/KotliEstate/Pages/Admin/Profile/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUHJvZmlsZVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -120,16 +124,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcaW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/FYProject/KotliEstate/KotliEstate/Pages/LogOut.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9nT3V0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [D:/FYProject/KotliEstate/KotliEstate/Pages/property-for-rent.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNccHJvcGVydHktZm9yLXJlbnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/FYProject/KotliEstate/KotliEstate/Pages/property-for-sales.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNccHJvcGVydHktZm9yLXNhbGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/FYProject/KotliEstate/KotliEstate/Pages/SearchPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VhcmNoUGFnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/FYProject/KotliEstate/KotliEstate/Pages/Shared/_AdminLayout.cshtml]

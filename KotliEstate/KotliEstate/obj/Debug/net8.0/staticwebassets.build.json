@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "HaEjG2cACso4WAf7K6nTP+6k3RaYDQhV1XtV9EV3vWo=",
+  "Hash": "/6N+mxgVndpS6sXMRQaviY35LecZAkgw6I/V1BSbjhI=",
   "Source": "KotliEstate",
   "BasePath": "_content/KotliEstate",
   "Mode": "Default",
@@ -41847,6 +41847,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploaded_image\\property\\house.jpg"
+    },
+    {
+      "Identity": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\uploaded_image\\property\\istockphoto-1255835530-612x612.jpg",
+      "SourceId": "KotliEstate",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\",
+      "BasePath": "_content/KotliEstate",
+      "RelativePath": "uploaded_image/property/istockphoto-1255835530-612x612#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "824yvfz20z",
+      "Integrity": "EBTqRcAzLdJr5j5420gRXFS64O74IXHbzbdys0+w5+U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploaded_image\\property\\istockphoto-1255835530-612x612.jpg"
     },
     {
       "Identity": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\uploaded_image\\testimonial\\tps.webp",
@@ -205212,6 +205233,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-aa3mcfpwo601Lf4aFeBihxYpJbR2kCXafJP0wgFExdg="
+        }
+      ]
+    },
+    {
+      "Route": "uploaded_image/property/istockphoto-1255835530-612x612.824yvfz20z.jpg",
+      "AssetFile": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\uploaded_image\\property\\istockphoto-1255835530-612x612.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "77467"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EBTqRcAzLdJr5j5420gRXFS64O74IXHbzbdys0+w5+U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Jan 2025 20:56:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "824yvfz20z"
+        },
+        {
+          "Name": "label",
+          "Value": "uploaded_image/property/istockphoto-1255835530-612x612.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EBTqRcAzLdJr5j5420gRXFS64O74IXHbzbdys0+w5+U="
+        }
+      ]
+    },
+    {
+      "Route": "uploaded_image/property/istockphoto-1255835530-612x612.jpg",
+      "AssetFile": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\uploaded_image\\property\\istockphoto-1255835530-612x612.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "77467"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EBTqRcAzLdJr5j5420gRXFS64O74IXHbzbdys0+w5+U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Jan 2025 20:56:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EBTqRcAzLdJr5j5420gRXFS64O74IXHbzbdys0+w5+U="
         }
       ]
     },
