@@ -37,19 +37,8 @@
             </div>
             <div class="form-group">
                 <label asp-for="property.Title" class="control-label"></label>
+                <input asp-for="property.Title" class="form-control">
               
-                <Select asp-for="property.Title" class="form-control">
-                    <option value="">-------------Select Title------------</option>
-                    <option value="">Appartment</option>
-                    <option value="">Villa</option>
-                    <option value="">Home</option>
-                    <option value="">Office</option>
-                    <option value="">Building</option>
-                    <option value="">TownHouse</option>
-                    <option value="">Shope</option>
-                    <option value="">Garage</option>
-
-                </Select>
                 <span asp-validation-for="property.Title" class="text-danger"></span>
             </div>
             <div class="form-group">
@@ -81,7 +70,18 @@
             </div>
             <div class="form-group">
                 <label asp-for="property.Types_Of_Properties" class="control-label"></label>
-                <input asp-for="property.Types_Of_Properties" class="form-control" />
+                <Select asp-for="property.Types_Of_Properties" class="form-control" >
+                    <option value="">-------------Select Title------------</option>
+                    <option value="Appartment">Appartment</option>
+                    <option value="Villa">Villa</option>
+                    <option value="Home">Home</option>
+                    <option value="Office">Office</option>
+                    <option value="Building">Building</option>
+                    <option value="TownHouse">TownHouse</option>
+                    <option value="Shope">Shope</option>
+                    <option value="Garage">Garage</option>
+
+                </Select>
                 <span asp-validation-for="property.Types_Of_Properties" class="text-danger"></span>
             </div>
             <div class="form-group">

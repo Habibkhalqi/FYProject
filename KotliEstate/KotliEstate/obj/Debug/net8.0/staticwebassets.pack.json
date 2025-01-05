@@ -7961,6 +7961,10 @@
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\vendor\\_rfs.scss"
     },
     {
+      "Id": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\uploaded_image\\property\\45.jpg",
+      "PackagePath": "staticwebassets\\uploaded_image\\property\\45.jpg"
+    },
+    {
       "Id": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\uploaded_image\\property\\house.jpg",
       "PackagePath": "staticwebassets\\uploaded_image\\property\\house.jpg"
     },

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "/6N+mxgVndpS6sXMRQaviY35LecZAkgw6I/V1BSbjhI=",
+  "Hash": "0KyZAkEp6XhLRt7oe/RxM2Dr5LwGnSiJf/uveMSWsQI=",
   "Source": "KotliEstate",
   "BasePath": "_content/KotliEstate",
   "Mode": "Default",
@@ -41826,6 +41826,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\vendor\\_rfs.scss"
+    },
+    {
+      "Identity": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\uploaded_image\\property\\45.jpg",
+      "SourceId": "KotliEstate",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\",
+      "BasePath": "_content/KotliEstate",
+      "RelativePath": "uploaded_image/property/45#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pnxsxtp9x4",
+      "Integrity": "Zb4QY5HuV41bFTJCeuFcxi95mJn4ne1zx4nN9IcLRxI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploaded_image\\property\\45.jpg"
     },
     {
       "Identity": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\uploaded_image\\property\\house.jpg",
@@ -205155,6 +205176,88 @@
       ]
     },
     {
+      "Route": "uploaded_image/property/45.jpg",
+      "AssetFile": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\uploaded_image\\property\\45.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "81813"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Zb4QY5HuV41bFTJCeuFcxi95mJn4ne1zx4nN9IcLRxI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 05 Jan 2025 22:45:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Zb4QY5HuV41bFTJCeuFcxi95mJn4ne1zx4nN9IcLRxI="
+        }
+      ]
+    },
+    {
+      "Route": "uploaded_image/property/45.pnxsxtp9x4.jpg",
+      "AssetFile": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\uploaded_image\\property\\45.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "81813"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Zb4QY5HuV41bFTJCeuFcxi95mJn4ne1zx4nN9IcLRxI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 05 Jan 2025 22:45:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pnxsxtp9x4"
+        },
+        {
+          "Name": "label",
+          "Value": "uploaded_image/property/45.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Zb4QY5HuV41bFTJCeuFcxi95mJn4ne1zx4nN9IcLRxI="
+        }
+      ]
+    },
+    {
       "Route": "uploaded_image/property/house.dzvqdz37dt.jpg",
       "AssetFile": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\uploaded_image\\property\\house.jpg",
       "Selectors": [],
@@ -205177,7 +205280,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 01 Jan 2025 13:24:12 GMT"
+          "Value": "Fri, 03 Jan 2025 12:45:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -205222,7 +205325,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 01 Jan 2025 13:24:12 GMT"
+          "Value": "Fri, 03 Jan 2025 12:45:08 GMT"
         },
         {
           "Name": "Cache-Control",
