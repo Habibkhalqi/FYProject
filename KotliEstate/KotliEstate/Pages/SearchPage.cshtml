@@ -1,6 +1,7 @@
 ﻿@page
 @using Microsoft.AspNetCore.Server.Kestrel.Core
 @model KotliEstate.Pages.SearchPage
+
 <div class="container">
     <div class="row g-4 ">
         <h2>
@@ -32,10 +33,19 @@
             }
         }
         else
-        {
-            <h2>Not Found</h2>
+        { 
+           
+            <div id="notfound">
+                <div class="notfound">
+                    <div class="notfound-404">
+                        <h1>404</h1>
+                        <h2>Page Not Found</h2>
+                    </div>
+                    <a >Report</a>
+                    <a asp-page="">Homepage</a>
+                </div>
+            </div>
         }
-      
-       
+        
     </div>
 </div>

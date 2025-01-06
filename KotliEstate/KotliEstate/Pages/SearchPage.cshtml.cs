@@ -22,5 +22,6 @@ public class SearchPage : PageModel
         {
             ViewData["flag"] = "true";
         }
+       
     }
 }

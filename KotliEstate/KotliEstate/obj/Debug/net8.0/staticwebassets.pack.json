@@ -7429,6 +7429,10 @@
       "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
     },
     {
+      "Id": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\css\\sstyle.css",
+      "PackagePath": "staticwebassets\\css\\sstyle.css"
+    },
+    {
       "Id": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\css\\style.css",
       "PackagePath": "staticwebassets\\css\\style.css"
     },
@@ -7961,12 +7965,20 @@
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\vendor\\_rfs.scss"
     },
     {
+      "Id": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\uploaded_image\\property\\444.jpg",
+      "PackagePath": "staticwebassets\\uploaded_image\\property\\444.jpg"
+    },
+    {
       "Id": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\uploaded_image\\property\\45.jpg",
       "PackagePath": "staticwebassets\\uploaded_image\\property\\45.jpg"
     },
     {
       "Id": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\uploaded_image\\property\\house.jpg",
       "PackagePath": "staticwebassets\\uploaded_image\\property\\house.jpg"
+    },
+    {
+      "Id": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\uploaded_image\\property\\images.png",
+      "PackagePath": "staticwebassets\\uploaded_image\\property\\images.png"
     },
     {
       "Id": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\uploaded_image\\property\\istockphoto-1255835530-612x612.jpg",
