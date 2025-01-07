@@ -10,5 +10,6 @@ public class Index : PageModel
         {
             Response.Redirect("/Admin/Login");
         }
+        ViewData["Name"] = HttpContext.Session.GetString("User");
     }
 }

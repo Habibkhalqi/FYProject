@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0DteMYPLHVA5DcPC5Qg02RN2tpgpk5duPILC8vXxSa0=",
+  "Hash": "En+6+lyasuW2KwVwteaD9Ch70ugGjfzG14lXOo3N2nM=",
   "Source": "KotliEstate",
   "BasePath": "_content/KotliEstate",
   "Mode": "Default",
@@ -41952,6 +41952,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploaded_image\\property\\istockphoto-1255835530-612x612.jpg"
+    },
+    {
+      "Identity": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\uploaded_image\\testimonial\\images.png",
+      "SourceId": "KotliEstate",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\",
+      "BasePath": "_content/KotliEstate",
+      "RelativePath": "uploaded_image/testimonial/images#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "f86ajhqzoy",
+      "Integrity": "8YrSSP7zQx/CS5On2h6ChqWDBbM9CI86kXEUq2vxw3g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploaded_image\\testimonial\\images.png"
     },
     {
       "Identity": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\uploaded_image\\testimonial\\tps.webp",
@@ -205727,6 +205748,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-EBTqRcAzLdJr5j5420gRXFS64O74IXHbzbdys0+w5+U="
+        }
+      ]
+    },
+    {
+      "Route": "uploaded_image/testimonial/images.f86ajhqzoy.png",
+      "AssetFile": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\uploaded_image\\testimonial\\images.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8175"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8YrSSP7zQx/CS5On2h6ChqWDBbM9CI86kXEUq2vxw3g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 07 Jan 2025 22:01:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f86ajhqzoy"
+        },
+        {
+          "Name": "label",
+          "Value": "uploaded_image/testimonial/images.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8YrSSP7zQx/CS5On2h6ChqWDBbM9CI86kXEUq2vxw3g="
+        }
+      ]
+    },
+    {
+      "Route": "uploaded_image/testimonial/images.png",
+      "AssetFile": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\uploaded_image\\testimonial\\images.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8175"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8YrSSP7zQx/CS5On2h6ChqWDBbM9CI86kXEUq2vxw3g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 07 Jan 2025 22:01:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8YrSSP7zQx/CS5On2h6ChqWDBbM9CI86kXEUq2vxw3g="
         }
       ]
     },

@@ -27,6 +27,7 @@
 
     <ItemGroup>
       <Folder Include="Pages\Admin\Category\" />
+      <Folder Include="Pages\Admin\ContactUS\" />
       <Folder Include="Pages\Admin\Profile\" />
       <Folder Include="Pages\Admin\Property\" />
       <Folder Include="Pages\Admin\Testimonial\" />

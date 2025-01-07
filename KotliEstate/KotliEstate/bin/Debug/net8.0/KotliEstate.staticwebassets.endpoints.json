@@ -163675,6 +163675,88 @@
       ]
     },
     {
+      "Route": "uploaded_image/testimonial/images.f86ajhqzoy.png",
+      "AssetFile": "uploaded_image/testimonial/images.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8175"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8YrSSP7zQx/CS5On2h6ChqWDBbM9CI86kXEUq2vxw3g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 07 Jan 2025 22:01:40 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f86ajhqzoy"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8YrSSP7zQx/CS5On2h6ChqWDBbM9CI86kXEUq2vxw3g="
+        },
+        {
+          "Name": "label",
+          "Value": "uploaded_image/testimonial/images.png"
+        }
+      ]
+    },
+    {
+      "Route": "uploaded_image/testimonial/images.png",
+      "AssetFile": "uploaded_image/testimonial/images.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8175"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8YrSSP7zQx/CS5On2h6ChqWDBbM9CI86kXEUq2vxw3g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 07 Jan 2025 22:01:40 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8YrSSP7zQx/CS5On2h6ChqWDBbM9CI86kXEUq2vxw3g="
+        }
+      ]
+    },
+    {
       "Route": "uploaded_image/testimonial/tps.83j5v7luhi.webp",
       "AssetFile": "uploaded_image/testimonial/tps.webp",
       "Selectors": [],

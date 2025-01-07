@@ -7985,6 +7985,10 @@
       "PackagePath": "staticwebassets\\uploaded_image\\property\\istockphoto-1255835530-612x612.jpg"
     },
     {
+      "Id": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\uploaded_image\\testimonial\\images.png",
+      "PackagePath": "staticwebassets\\uploaded_image\\testimonial\\images.png"
+    },
+    {
       "Id": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\uploaded_image\\testimonial\\tps.webp",
       "PackagePath": "staticwebassets\\uploaded_image\\testimonial\\tps.webp"
     },

@@ -8,7 +8,8 @@ namespace KotliEstate.Pages;
 public class index : PageModel
 {
     private AppDbContext db;
-
+    public List<property> ListOfProperties { get; set; } = new();
+    public List<testimonial> review { get; set; } = new();
     public CategoryViewModel count { get; set; } = new CategoryViewModel();
     public index(AppDbContext db)
     {
@@ -16,6 +17,8 @@ public class index : PageModel
     }
     public void OnGet()
     {
+        ListOfProperties = db.tbl_property.ToList();
+        review = db.tbl_testimonial.ToList();
         Counter();
     }
 

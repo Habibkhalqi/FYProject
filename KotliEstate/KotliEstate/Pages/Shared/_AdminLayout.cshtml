@@ -120,6 +120,20 @@
                     </div>
                 </div>
             </li>
+            <!----this is for messsage box-->
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseFive"
+                   aria-expanded="true" aria-controls="collapseTwo">
+                    <i class="fas fa-fw fa-folder"></i>
+                    <span>Message</span>
+                </a>
+                <div id="collapseFive" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        
+                        <a class="collapse-item" asp-page="/Admin/ContactUS/List">Show</a>
+                    </div>
+                </div>
+            </li>
          
          
 
@@ -173,7 +187,7 @@
                         <li class="nav-item dropdown no-arrow">
                             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Douglas McGee</span>
+                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">@ViewData["Name"]</span>
                                 <img class="img-profile rounded-circle"
                                     src="~/admin/img/undraw_profile.svg">
                             </a>
