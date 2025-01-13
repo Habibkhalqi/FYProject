@@ -4,19 +4,19 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace KotliEstate.ViewComponents;
 
-public class ProfileViewCompenent : ViewComponent
+public class ProfileViewComponent : ViewComponent
 {
-    private AppDbContext db;
-    public Profile Pro { get; set; } = new Profile();
+    public AppDbContext db;
+    public Profile profile { get; set; } = new Profile();
 
-    public ProfileViewCompenent(AppDbContext db)
+    public ProfileViewComponent(AppDbContext db)
     {
         this.db = db;
     }
 
     public IViewComponentResult Invoke()
     {
-        Pro = db.tbl_Profile.FirstOrDefault();
-        return View(Pro);
+        profile = db.tbl_Profile.FirstOrDefault();
+        return View(profile);
     }
 }
