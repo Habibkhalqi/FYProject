@@ -1,0 +1,141 @@
+﻿@page
+@model KotliEstate.Pages.property_form
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Property Register Form</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #effdf5; /* Light gray background */
+        }
+        .custom-form {
+            background-color:#00B98E; /* White form background */
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-start mt-5">
+            
+            <div class="col-md-6">
+                
+                <form method="post" enctype="multipart/form-data" class="custom-form">
+                    <h2 class="mb-4">Registeration Form</h2>
+                    <div class="mb-3"> <img src="images/Kotli E-State.jpg" height="320px" width="500px"> <br>
+                        <label for="firstName" class="form-label">First Name</label>
+                        <input asp-for="myProperty.FirstName" class="form-control" id="firstName" placeholder="Enter first name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="lastName" class="form-label">Last Name</label>
+                        <input asp-for="myProperty.LastName" class="form-control" id="lastName" placeholder="Enter last name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="cnic" class="form-label">CNIC</label>
+                        <input asp-for="myProperty.CNIC" class="form-control" id="cnic" placeholder="Enter last name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="Mobile" class="form-label">Mobile</label>
+                        <input asp-for="myProperty.MobileNumber" class="form-control" id="Mobilenumber" placeholder="Enter last name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="title" class="form-label">Title</label>
+                        <input asp-for="myProperty.Title" class="form-control" id="title" placeholder="Enter property title">
+                    </div>
+                    <div class="mb-3">
+                        <label for="price" class="form-label">Price</label>
+                        <input asp-for="myProperty.Price" class="form-control" id="price" placeholder="Enter price">
+                    </div>
+                    <div class="mb-3">
+                        <label for="address" class="form-label">Address</label>
+                        <textarea asp-for="myProperty.Address" class="form-control" id="address" rows="3" placeholder="Enter address"></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="myProperty.Types_Of_Properties" class="form-label">Type of Property</label>
+                        <select class="form-select" id="typeOfProperty">
+                            <option value="" selected disabled>Select Property</option>
+                            @foreach (var item in Model.type_Of_Property)
+                            {
+                                <option value="@item">@item</option>
+                            }
+
+                            @*<option value="property">Property</option>
+                            <option value="shops">Shops</option>
+                            <option value="hostel">Hostel</option>
+                            <option value="Flat">Flat</option>
+                            <option value="building">Buildings</option>*@
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="area" class="form-label">Area (sq ft)</label>
+                        <input asp-for="myProperty.Area" class="form-control" id="area" placeholder="Enter area">
+                    </div>
+                    <div class="mb-3">
+                        <label for="category" class="form-label">Category</label>                        
+                        <select asp-for="myProperty.Category" class="form-select" id="propertyType">
+                            <option value="" selected disabled>Select type</option>
+                            @foreach (var item in @Model.category)
+                            {
+                                <option value="@item">@item</option>    
+                            }
+                            
+                            @*<option value="property-for-rent">Property-for-Rent</option>*@
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="bathrooms" class="form-label">Number of Baths</label>
+                        <input asp-for="myProperty.Number_Of_Bathrooms" class="form-control" id="bathrooms" placeholder="Enter number of baths">
+                    </div>
+                    <div class="mb-3">
+                        <label for="bedrooms" class="form-label">Number of Bedrooms</label>
+                        <input asp-for="myProperty.Number_Of_Bedrooms" class="form-control" id="bedrooms" placeholder="Enter number of bedrooms">
+                    </div>
+                    <div class="mb-3">
+                        <label for="Slug" class="form-label">Slug</label>
+                        <input asp-for="myProperty.Slug" class="form-control" id="Slug" placeholder="Enter property Slug">
+                    </div>
+                    <div class="mb-3">
+                        <label for="image" class="form-label">Upload a Front Facing Photo of property</label>
+                        <input asp-for="myProperty.picture" class="form-control" id="image">
+                    </div>
+                    <center><button type="submit" class="btn btn-dark">Submit</button></center>
+                </form>
+            </div>
+
+            <!--Rules-->
+            <div class="col-md-6">
+                    <div class="alert alert-success" role="alert">
+                        <h4 class="alert-heading">Please read this before Registeration Form</h4>
+                        <li>
+                            <ul>
+                                Rule No 1
+                            </ul>
+                            <ul>
+                                Rule No 2
+                            </ul>
+                            <ul>
+                                Rule No 3
+                            </ul>
+                            <ul>
+                                Rule No 4
+                            </ul>
+                        </li>
+                        <hr>
+                        <p class="mb-0">Thanks</p>
+                      </div>
+                </div>
+                
+            </div>
+
+    </div> 
+<!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

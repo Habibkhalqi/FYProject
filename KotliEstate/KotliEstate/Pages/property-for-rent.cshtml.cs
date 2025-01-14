@@ -12,7 +12,7 @@ public class property_for_rent : PageModel
     public property_for_rent(AppDbContext db)
     {
         this.db = db;
-        ListOfProperties = db.tbl_property.ToList();
+        ListOfProperties = db.tbl_property.Where(prop=>prop.Status=="Approved").ToList();
     }
     public void OnGet()
     {

@@ -12,7 +12,7 @@ public class property_for_sales : PageModel
     public property_for_sales(AppDbContext db)
     {
         this.db = db;
-        ListOfProperties = db.tbl_property.ToList();
+        ListOfProperties = db.tbl_property.Where(prop=>prop.Status=="Approved").ToList();
     }
     public void OnGet()
     {

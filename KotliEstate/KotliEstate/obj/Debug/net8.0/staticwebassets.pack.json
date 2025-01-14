@@ -7441,6 +7441,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\img\\Kotli E-State.jpg",
+      "PackagePath": "staticwebassets\\img\\Kotli E-State.jpg"
+    },
+    {
       "Id": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\img\\about.jpg",
       "PackagePath": "staticwebassets\\img\\about.jpg"
     },
@@ -7963,6 +7967,10 @@
     {
       "Id": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\scss\\bootstrap\\scss\\vendor\\_rfs.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\uploaded_image\\property\\11.jpeg",
+      "PackagePath": "staticwebassets\\uploaded_image\\property\\11.jpeg"
     },
     {
       "Id": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\uploaded_image\\property\\444.jpg",
