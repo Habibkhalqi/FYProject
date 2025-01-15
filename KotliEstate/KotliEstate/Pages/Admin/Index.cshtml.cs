@@ -1,15 +1,25 @@
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.AspNetCore.Http;
 
-namespace KotliEstate.Pages.Admin;
-
-public class Index : PageModel
+namespace KotliEstate.Pages.Admin
 {
-    public void OnGet()
+    public class Index : PageModel
     {
-        if(HttpContext.Session.GetString("flag") != "true")
+        public string[] Labels { get; set; }
+        public int[] Data { get; set; }
+
+        public void OnGet()
         {
-            Response.Redirect("/Admin/Login");
+            // Ensure the user is logged in
+            if (HttpContext.Session.GetString("flag") != "true")
+            {
+                Response.Redirect("/Admin/Login");
+            }
+            ViewData["Name"] = HttpContext.Session.GetString("User");
+
+            // Provide data for the bar chart
+            Labels = new[] { "Jan", "Feb", "Mar", "Apr", "May", "Jun" };
+            Data = new[] { 65, 59, 80, 81, 56, 55 };
         }
-        ViewData["Name"] = HttpContext.Session.GetString("User");
     }
 }
