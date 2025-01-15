@@ -36,7 +36,6 @@ namespace KotliEstate.Pages.Admin.Property
         [BindProperty]
         public property property { get; set; } = new();
 
-        // For more information, see https://aka.ms/RazorPagesCRUD.
         public IActionResult OnPost()
         {
             string ImageName = property.picture.FileName.ToString();

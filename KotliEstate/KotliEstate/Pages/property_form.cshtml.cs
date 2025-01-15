@@ -25,7 +25,7 @@ public class property_form : PageModel
 
     public void OnGet()
     {
-        type_Of_Property = db.tbl_property.Select(t=>t.Types_Of_Properties).ToList();
+        
         category = db.tbl_property.Select(t => t.Category).ToList();
         
     }

@@ -29,7 +29,7 @@
                 
                 <form method="post" enctype="multipart/form-data" class="custom-form">
                     <h2 class="mb-4">Registeration Form</h2>
-                    <div class="mb-3"> <img src="images/Kotli E-State.jpg" height="320px" width="500px"> <br>
+                    <div class="mb-3"> <img src="img/Kotli%20E-State.jpg" height="320px" width="500px"> <br>
                         <label for="firstName" class="form-label">First Name</label>
                         <input asp-for="myProperty.FirstName" class="form-control" id="firstName" placeholder="Enter first name">
                     </div>
@@ -61,16 +61,12 @@
                         <label asp-for="myProperty.Types_Of_Properties" class="form-label">Type of Property</label>
                         <select class="form-select" id="typeOfProperty">
                             <option value="" selected disabled>Select Property</option>
-                            @foreach (var item in Model.type_Of_Property)
-                            {
-                                <option value="@item">@item</option>
-                            }
-
-                            @*<option value="property">Property</option>
+                            <option value="Home">Home</option>
+                            <option value="property">Property</option>
                             <option value="shops">Shops</option>
                             <option value="hostel">Hostel</option>
                             <option value="Flat">Flat</option>
-                            <option value="building">Buildings</option>*@
+                            <option value="building">Buildings</option>
                         </select>
                     </div>
                     <div class="mb-3">
