@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KotliEstate")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7c9b4ed362109b2b2c82fb8c80644eb9e636e0d7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9e2eeb086952eeaa253048700221e0423c51bb29")]
 [assembly: System.Reflection.AssemblyProductAttribute("KotliEstate")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KotliEstate")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
