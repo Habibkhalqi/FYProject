@@ -7,6 +7,11 @@ namespace KotliEstate.Pages.Admin
 {
     public class Index : PageModel
     {
+        public int CountOfRent { get; set; }
+        public int CountOfSales { get; set; }
+        public int  CountOfNotApproved { get; set; }
+        public int CountOfApproved { get; set; }
+        
         public string LabelOfTypes { get; set; }
         public string CountOfTypes { get; set; }
         
@@ -41,7 +46,21 @@ namespace KotliEstate.Pages.Admin
             //Serialization of Data
             LabelOfTypes = JsonConvert.SerializeObject(propertyData.Select((p=>p.propertyType)));
             CountOfTypes = JsonConvert.SerializeObject(propertyData.Select((p=>p.count)));
+            
+            //function Calling.............
+            counter();
 
+        }
+
+        private void counter()
+        {
+            CountOfRent = db.tbl_property.Where(x => x.Category == "Rent").Count();
+            
+            CountOfSales = db.tbl_property.Where(x => x.Category == "Sales").Count();
+            
+            CountOfNotApproved = db.tbl_property.Where(x => x.Status == "NotApproved").Count();
+            
+            CountOfApproved = db.tbl_property.Where(x => x.Status == "Approved").Count();
         }
     }
 }
