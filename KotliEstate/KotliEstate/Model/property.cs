@@ -8,6 +8,7 @@ public class property
     public int id { get; set; }
     public string  FirstName { get; set; }
     public string  LastName { get; set; }
+    
     public string CNIC { get; set; }
     [DisplayName(displayName:"Mobile Number")]
     public string MobileNumber { get; set; }
