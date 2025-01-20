@@ -152523,6 +152523,88 @@
       ]
     },
     {
+      "Route": "img/9a0d44110c851451035204f669e67b61-image.jpg",
+      "AssetFile": "img/9a0d44110c851451035204f669e67b61-image.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "68331"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HehYT5rk+aFDyudU2s5/dZRExK1PqcXfIvpm9WRJqqE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 19 Jan 2025 05:08:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HehYT5rk+aFDyudU2s5/dZRExK1PqcXfIvpm9WRJqqE="
+        }
+      ]
+    },
+    {
+      "Route": "img/9a0d44110c851451035204f669e67b61-image.x7g0a71v9f.jpg",
+      "AssetFile": "img/9a0d44110c851451035204f669e67b61-image.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "68331"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HehYT5rk+aFDyudU2s5/dZRExK1PqcXfIvpm9WRJqqE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 19 Jan 2025 05:08:52 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "x7g0a71v9f"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HehYT5rk+aFDyudU2s5/dZRExK1PqcXfIvpm9WRJqqE="
+        },
+        {
+          "Name": "label",
+          "Value": "img/9a0d44110c851451035204f669e67b61-image.jpg"
+        }
+      ]
+    },
+    {
       "Route": "img/Kotli E-State.2xyr8ffncv.jpg",
       "AssetFile": "img/Kotli E-State.jpg",
       "Selectors": [],

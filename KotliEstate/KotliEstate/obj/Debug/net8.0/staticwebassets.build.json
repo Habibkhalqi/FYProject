@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "vczxecsWOOfdvT7kP3TRQyQONsajhA19wUhN3PxFkWU=",
+  "Hash": "SJI8hbgSpqDO97Sap/5tkmJkDDdfaHl6Jh4J/7npFHM=",
   "Source": "KotliEstate",
   "BasePath": "_content/KotliEstate",
   "Mode": "Default",
@@ -39096,6 +39096,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\img\\9a0d44110c851451035204f669e67b61-image.jpg",
+      "SourceId": "KotliEstate",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\",
+      "BasePath": "_content/KotliEstate",
+      "RelativePath": "img/9a0d44110c851451035204f669e67b61-image#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "x7g0a71v9f",
+      "Integrity": "HehYT5rk+aFDyudU2s5/dZRExK1PqcXfIvpm9WRJqqE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\9a0d44110c851451035204f669e67b61-image.jpg"
     },
     {
       "Identity": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\img\\about.jpg",
@@ -194495,6 +194516,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "img/9a0d44110c851451035204f669e67b61-image.jpg",
+      "AssetFile": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\img\\9a0d44110c851451035204f669e67b61-image.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "68331"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HehYT5rk+aFDyudU2s5/dZRExK1PqcXfIvpm9WRJqqE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 19 Jan 2025 05:08:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HehYT5rk+aFDyudU2s5/dZRExK1PqcXfIvpm9WRJqqE="
+        }
+      ]
+    },
+    {
+      "Route": "img/9a0d44110c851451035204f669e67b61-image.x7g0a71v9f.jpg",
+      "AssetFile": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\img\\9a0d44110c851451035204f669e67b61-image.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "68331"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HehYT5rk+aFDyudU2s5/dZRExK1PqcXfIvpm9WRJqqE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 19 Jan 2025 05:08:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "x7g0a71v9f"
+        },
+        {
+          "Name": "label",
+          "Value": "img/9a0d44110c851451035204f669e67b61-image.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HehYT5rk+aFDyudU2s5/dZRExK1PqcXfIvpm9WRJqqE="
         }
       ]
     },
