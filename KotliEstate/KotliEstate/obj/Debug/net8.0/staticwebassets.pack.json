@@ -7981,12 +7981,16 @@
       "PackagePath": "staticwebassets\\uploaded_image\\property\\12.jpg"
     },
     {
-      "Id": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\uploaded_image\\property\\444.jpg",
-      "PackagePath": "staticwebassets\\uploaded_image\\property\\444.jpg"
-    },
-    {
       "Id": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\uploaded_image\\property\\45.jpg",
       "PackagePath": "staticwebassets\\uploaded_image\\property\\45.jpg"
+    },
+    {
+      "Id": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\uploaded_image\\property\\a1.jpg",
+      "PackagePath": "staticwebassets\\uploaded_image\\property\\a1.jpg"
+    },
+    {
+      "Id": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\uploaded_image\\property\\a2.jpg",
+      "PackagePath": "staticwebassets\\uploaded_image\\property\\a2.jpg"
     },
     {
       "Id": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\uploaded_image\\property\\house.jpg",

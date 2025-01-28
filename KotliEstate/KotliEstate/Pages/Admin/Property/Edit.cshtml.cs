@@ -54,11 +54,10 @@ namespace KotliEstate.Pages.Admin.Property
         {
             if (property.picture != null)
             {
+                Helper.DeleteImage(property.image, "property", _env);
                 string ImageName = property.picture.FileName.ToString();
-                property.picture.CopyTo(Helper.UploadImage(ImageName,"property", _env));
-                Helper.DeleteImage(property.image,"property",_env);
-
-                _context.tbl_property.Update(property);
+                property.picture.CopyTo(Helper.UploadImage(ImageName, "property", _env));
+                
                
                 _context.SaveChanges();
             }
