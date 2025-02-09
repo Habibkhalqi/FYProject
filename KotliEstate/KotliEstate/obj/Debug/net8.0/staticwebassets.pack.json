@@ -7981,16 +7981,16 @@
       "PackagePath": "staticwebassets\\uploaded_image\\property\\12.jpg"
     },
     {
-      "Id": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\uploaded_image\\property\\45.jpg",
-      "PackagePath": "staticwebassets\\uploaded_image\\property\\45.jpg"
-    },
-    {
       "Id": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\uploaded_image\\property\\a1.jpg",
       "PackagePath": "staticwebassets\\uploaded_image\\property\\a1.jpg"
     },
     {
       "Id": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\uploaded_image\\property\\a2.jpg",
       "PackagePath": "staticwebassets\\uploaded_image\\property\\a2.jpg"
+    },
+    {
+      "Id": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\uploaded_image\\property\\h1.jpg",
+      "PackagePath": "staticwebassets\\uploaded_image\\property\\h1.jpg"
     },
     {
       "Id": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\uploaded_image\\property\\h4.jpg",
@@ -8001,20 +8001,20 @@
       "PackagePath": "staticwebassets\\uploaded_image\\property\\house.jpg"
     },
     {
-      "Id": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\uploaded_image\\property\\images.png",
-      "PackagePath": "staticwebassets\\uploaded_image\\property\\images.png"
+      "Id": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\uploaded_image\\property\\v6.jpg",
+      "PackagePath": "staticwebassets\\uploaded_image\\property\\v6.jpg"
     },
     {
-      "Id": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\uploaded_image\\property\\istockphoto-1255835530-612x612.jpg",
-      "PackagePath": "staticwebassets\\uploaded_image\\property\\istockphoto-1255835530-612x612.jpg"
-    },
-    {
-      "Id": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\uploaded_image\\testimonial\\images.png",
-      "PackagePath": "staticwebassets\\uploaded_image\\testimonial\\images.png"
+      "Id": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\uploaded_image\\testimonial\\h7.jpg",
+      "PackagePath": "staticwebassets\\uploaded_image\\testimonial\\h7.jpg"
     },
     {
       "Id": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\uploaded_image\\testimonial\\tps.webp",
       "PackagePath": "staticwebassets\\uploaded_image\\testimonial\\tps.webp"
+    },
+    {
+      "Id": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\uploaded_image\\testimonial\\v3.jpg",
+      "PackagePath": "staticwebassets\\uploaded_image\\testimonial\\v3.jpg"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.KotliEstate.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

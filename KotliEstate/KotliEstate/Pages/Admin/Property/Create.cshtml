@@ -96,7 +96,12 @@
             </div>
             <div class="form-group">
                 <label asp-for="property.Status" class="control-label"></label>
-                <input asp-for="property.Status" class="form-control" />
+                
+                <select asp-for="property.Status" class="form-control">
+                    <option value="">----------Select Status----------</option>
+                    <option value="Approved">Approved</option>
+                    <option value="Not Approved">Not Approved</option>
+                </select>
                 <span asp-validation-for="property.Status" class="text-danger"></span>
             </div>
             <div class="form-group">
