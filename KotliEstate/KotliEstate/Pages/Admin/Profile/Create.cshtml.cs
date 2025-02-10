@@ -42,7 +42,7 @@ namespace KotliEstate.Pages.Admin.Profile
             _context.tbl_Profile.Add(Profile);
             await _context.SaveChangesAsync();
 
-            return Page();
+            return RedirectToPage("./ShowPages");
         }
     }
 }

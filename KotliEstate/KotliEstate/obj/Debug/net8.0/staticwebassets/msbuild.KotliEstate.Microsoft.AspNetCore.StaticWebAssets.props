@@ -35874,203 +35874,77 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\scss\bootstrap\scss\_variables.scss'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploaded_image\property\11.jpeg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploaded_image\property\1.png'))">
       <SourceType>Package</SourceType>
       <SourceId>KotliEstate</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/KotliEstate</BasePath>
-      <RelativePath>uploaded_image/property/11.jpeg</RelativePath>
+      <RelativePath>uploaded_image/property/1.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>sz06suku57</Fingerprint>
-      <Integrity>eCGlz4ySidqRc9JclIxKjQ6zhBtUfFXKuqM76wyraBI=</Integrity>
+      <Fingerprint>3sj872uvl9</Fingerprint>
+      <Integrity>3Zo6LxAoXhWyyGnoCjQngjnhrrxBYlQQaSAMU1q0/H8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploaded_image\property\11.jpeg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploaded_image\property\1.png'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploaded_image\property\12.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploaded_image\property\2.png'))">
       <SourceType>Package</SourceType>
       <SourceId>KotliEstate</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/KotliEstate</BasePath>
-      <RelativePath>uploaded_image/property/12.jpg</RelativePath>
+      <RelativePath>uploaded_image/property/2.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>4zswa945pe</Fingerprint>
-      <Integrity>UBcEqKHfWMPbkHnRi/aDOtNcOhe3eDLKLyDcOm4KTxs=</Integrity>
+      <Fingerprint>n66lwuc4z2</Fingerprint>
+      <Integrity>jyrrCGpCTr43eAKF3bPf2xUuC74b7ukmwwQWXXaVlVo=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploaded_image\property\12.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploaded_image\property\2.png'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploaded_image\property\a1.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploaded_image\property\3.png'))">
       <SourceType>Package</SourceType>
       <SourceId>KotliEstate</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/KotliEstate</BasePath>
-      <RelativePath>uploaded_image/property/a1.jpg</RelativePath>
+      <RelativePath>uploaded_image/property/3.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>kpv70warxb</Fingerprint>
-      <Integrity>uIORSYbzrY769QnrjU57dY9ix5EBfdeJWBEbAkYtyfQ=</Integrity>
+      <Fingerprint>4guk3omxqg</Fingerprint>
+      <Integrity>3EVJxbgZTc+mi6kB7SZACuidkLA3j5idxT99UQa2wcg=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploaded_image\property\a1.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploaded_image\property\3.png'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploaded_image\property\a2.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploaded_image\testimonial\WhatsApp Image 2025-01-29 at 13.00.09_eaff1fd5.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>KotliEstate</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/KotliEstate</BasePath>
-      <RelativePath>uploaded_image/property/a2.jpg</RelativePath>
+      <RelativePath>uploaded_image/testimonial/WhatsApp Image 2025-01-29 at 13.00.09_eaff1fd5.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>uulrogcljx</Fingerprint>
-      <Integrity>Zv97b8T+ug5M71YMHandd/CyQhGguFLpfd81GALOaRg=</Integrity>
+      <Fingerprint>icbxu3ekv8</Fingerprint>
+      <Integrity>smEn8pWbC74HFiQnKJwcN6p1GrPyc0u5vE1LsS97gQ4=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploaded_image\property\a2.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploaded_image\property\h1.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>KotliEstate</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/KotliEstate</BasePath>
-      <RelativePath>uploaded_image/property/h1.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>2kg6tqsywz</Fingerprint>
-      <Integrity>rkEZsDHoYxOHZmqy7yYtuOzE4BhkwluFoizs63Vv9Gw=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploaded_image\property\h1.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploaded_image\property\h4.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>KotliEstate</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/KotliEstate</BasePath>
-      <RelativePath>uploaded_image/property/h4.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>p0uso29eut</Fingerprint>
-      <Integrity>BwluY+KGWmf+AKQOHJ9nHG+BXBsedrXk2sKP3XAjW4o=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploaded_image\property\h4.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploaded_image\property\house.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>KotliEstate</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/KotliEstate</BasePath>
-      <RelativePath>uploaded_image/property/house.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>dzvqdz37dt</Fingerprint>
-      <Integrity>aa3mcfpwo601Lf4aFeBihxYpJbR2kCXafJP0wgFExdg=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploaded_image\property\house.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploaded_image\property\v6.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>KotliEstate</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/KotliEstate</BasePath>
-      <RelativePath>uploaded_image/property/v6.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>3g41tn6po6</Fingerprint>
-      <Integrity>PZo0hRGoAaCnyV5IM2hI+IQAJ5emV5Tyc94hwFI0/5U=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploaded_image\property\v6.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploaded_image\testimonial\h7.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>KotliEstate</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/KotliEstate</BasePath>
-      <RelativePath>uploaded_image/testimonial/h7.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>cnyv8zyv3a</Fingerprint>
-      <Integrity>2OqyCeiF3rD4reZmZieMm8hgVHGr3kNSfoUrvoeFr28=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploaded_image\testimonial\h7.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploaded_image\testimonial\tps.webp'))">
-      <SourceType>Package</SourceType>
-      <SourceId>KotliEstate</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/KotliEstate</BasePath>
-      <RelativePath>uploaded_image/testimonial/tps.webp</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>83j5v7luhi</Fingerprint>
-      <Integrity>5LoZCZxMaM9zXwC98XcguOlKthUKpw/Cyrmg9lDxdgY=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploaded_image\testimonial\tps.webp'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploaded_image\testimonial\v3.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>KotliEstate</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/KotliEstate</BasePath>
-      <RelativePath>uploaded_image/testimonial/v3.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>r861c815eg</Fingerprint>
-      <Integrity>29ENFXmWp8Vku5t5aly6rQJ3rm1d6oH0khHy+qBURNI=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploaded_image\testimonial\v3.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploaded_image\testimonial\WhatsApp Image 2025-01-29 at 13.00.09_eaff1fd5.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>
 </Project>

@@ -7,43 +7,38 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using KotliEstate.Data;
 using KotliEstate.Model;
-using KotliEstate.Service;
-using Microsoft.CodeAnalysis.CSharp.Syntax;
 
-namespace KotliEstate.Pages.Admin.Property
+namespace KotliEstate.Pages.Admin.Profile
 {
     public class DeleteModel : PageModel
     {
         private readonly KotliEstate.Data.AppDbContext _context;
-        private IWebHostEnvironment env;
-        
-        public DeleteModel(KotliEstate.Data.AppDbContext context , IWebHostEnvironment env)
+
+        public DeleteModel(KotliEstate.Data.AppDbContext context)
         {
             _context = context;
-            this.env = env;
         }
 
         [BindProperty]
-        public property Property { get; set; } = default!;
+        public Contact Contact { get; set; } = default!;
 
         public async Task<IActionResult> OnGetAsync(int? id)
         {
-            if(HttpContext.Session.GetString("flag") != "true")
-            {
-                return RedirectToPage("/Admin/Login");
-            }
             if (id == null)
             {
                 return NotFound();
             }
 
-             Property = await _context.tbl_property.FirstOrDefaultAsync(m => m.id == id);
+            var contact = await _context.tbl_contact.FirstOrDefaultAsync(m => m.Id == id);
 
-            if (Property == null)
+            if (contact == null)
             {
                 return NotFound();
             }
-           
+            else
+            {
+                Contact = contact;
+            }
             return Page();
         }
 
@@ -54,17 +49,15 @@ namespace KotliEstate.Pages.Admin.Property
                 return NotFound();
             }
 
-            var property = await _context.tbl_property.FindAsync(id);
-            if (property != null)
+            var contact = await _context.tbl_contact.FindAsync(id);
+            if (contact != null)
             {
-                Property = property;
-                Helper.DeleteImage(property.image,"property",env);
-                
-                _context.tbl_property.Remove(property);
+                Contact = contact;
+                _context.tbl_contact.Remove(Contact);
                 await _context.SaveChangesAsync();
             }
 
-            return RedirectToPage("./Index");
+            return RedirectToPage("./ShowPages");
         }
     }
 }

@@ -26,16 +26,7 @@
                 @Html.DisplayNameFor(model => model.Profile[0].Email)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Profile[0].Twitter)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Profile[0].Facebook)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Profile[0].Youtube)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Profile[0].LinkedIn)
+                Action
             </th>
             <th></th>
         </tr>
@@ -55,22 +46,11 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Email)
             </td>
+         
             <td>
-                @Html.DisplayFor(modelItem => item.Twitter)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Facebook)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Youtube)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.LinkedIn)
-            </td>
-            <td>
-                <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
+                <a asp-page="./Edit" asp-route-id="@item.Id" class="btn btn-primary">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.Id" class="btn btn-success">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
             </td>
         </tr>
 }
