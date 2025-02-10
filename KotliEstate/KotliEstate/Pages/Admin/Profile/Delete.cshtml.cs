@@ -57,7 +57,7 @@ namespace KotliEstate.Pages.Admin.Profile
                 await _context.SaveChangesAsync();
             }
 
-            return RedirectToPage("./ShowPages");
+            return RedirectToPage("./Index");
         }
     }
 }

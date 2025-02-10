@@ -37,7 +37,7 @@ namespace KotliEstate.Pages.Admin.Profile
             {
                 Contact = contact;
             }
-            return RedirectToPage("./ShowPages");
+            return Page();
         }
     }
 }

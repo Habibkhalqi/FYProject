@@ -66,7 +66,7 @@ namespace KotliEstate.Pages.Admin.Profile
                 }
             }
 
-            return RedirectToPage("./ShowPages");
+            return RedirectToPage("./Index");
         }
 
         private bool ContactExists(int id)

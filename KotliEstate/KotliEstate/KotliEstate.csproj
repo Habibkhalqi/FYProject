@@ -26,6 +26,10 @@
     </ItemGroup>
 
     <ItemGroup>
+      <Folder Include="Areas\Create\Controllers\" />
+      <Folder Include="Areas\Create\Data\" />
+      <Folder Include="Areas\Create\Models\" />
+      <Folder Include="Areas\Create\Views\" />
       <Folder Include="Pages\Admin\Category\" />
       <Folder Include="Pages\Admin\ContactUS\" />
       <Folder Include="Pages\Admin\Profile\" />

@@ -10,24 +10,20 @@ using KotliEstate.Model;
 
 namespace KotliEstate.Pages.Admin.Profile
 {
-    public class ShowPagesModel : PageModel
+    public class indexModel : PageModel
     {
         private readonly KotliEstate.Data.AppDbContext _context;
 
-        public ShowPagesModel(KotliEstate.Data.AppDbContext context)
+        public indexModel(KotliEstate.Data.AppDbContext context)
         {
             _context = context;
         }
 
-        public IList<Model.Profile> Profile { get;set; } = default!;
+        public IList<Contact> Contact { get;set; } = default!;
 
         public async Task OnGetAsync()
         {
-            if(HttpContext.Session.GetString("flag") != "true")
-            {
-                Response.Redirect("/Admin/Login");
-            }
-            Profile = await _context.tbl_Profile.ToListAsync();
+            Contact = await _context.tbl_contact.ToListAsync();
         }
     }
 }

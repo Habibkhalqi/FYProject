@@ -1,52 +1,48 @@
 @page
-@model KotliEstate.Pages.Admin.Profile.ShowPagesModel
+@model KotliEstate.Pages.Admin.Profile.indexModel
 
 @{
-    ViewData["Title"] = "ShowPages";
+    ViewData["Title"] = "index";
 }
 
-<h1>ShowPages</h1>
+<h1>index</h1>
 
 <p>
-    <a asp-page="Create">Create New</a>
+    <a asp-page="Create" class="btn btn-primary">Create New</a>
 </p>
 <table class="table">
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Profile[0].Name)
+                @Html.DisplayNameFor(model => model.Contact[0].Name)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Profile[0].Address)
+                @Html.DisplayNameFor(model => model.Contact[0].Email)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Profile[0].Phone)
+                @Html.DisplayNameFor(model => model.Contact[0].Subject)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Profile[0].Email)
-            </th>
-            <th>
-                Action
+                @Html.DisplayNameFor(model => model.Contact[0].Message)
             </th>
             <th></th>
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model.Profile) {
+@foreach (var item in Model.Contact) {
         <tr>
             <td>
                 @Html.DisplayFor(modelItem => item.Name)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Address)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Phone)
-            </td>
-            <td>
                 @Html.DisplayFor(modelItem => item.Email)
             </td>
-         
+            <td>
+                @Html.DisplayFor(modelItem => item.Subject)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Message)
+            </td>
             <td>
                 <a asp-page="./Edit" asp-route-id="@item.Id" class="btn btn-primary">Edit</a> |
                 <a asp-page="./Details" asp-route-id="@item.Id" class="btn btn-success">Details</a> |

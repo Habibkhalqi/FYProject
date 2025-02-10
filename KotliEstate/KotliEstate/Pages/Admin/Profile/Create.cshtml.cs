@@ -25,24 +25,20 @@ namespace KotliEstate.Pages.Admin.Profile
         }
 
         [BindProperty]
-        public Model.Profile Profile { get; set; } = default!;
+        public Contact Contact { get; set; } = default!;
 
         // For more information, see https://aka.ms/RazorPagesCRUD.
         public async Task<IActionResult> OnPostAsync()
         {
-            if(HttpContext.Session.GetString("flag") != "true")
-            {
-                return RedirectToPage("/Admin/Login");
-            }
             if (!ModelState.IsValid)
             {
                 return Page();
             }
 
-            _context.tbl_Profile.Add(Profile);
+            _context.tbl_contact.Add(Contact);
             await _context.SaveChangesAsync();
 
-            return RedirectToPage("./ShowPages");
+            return RedirectToPage("./Index");
         }
     }
 }
