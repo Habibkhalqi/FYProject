@@ -6,8 +6,8 @@
             <div class="row g-0 align-items-center flex-column-reverse flex-md-row">
                 <div class="col-md-6 p-5 mt-lg-5">
                     <h1 class="display-5 animated fadeIn mb-4">Find A <span class="text-primary">Perfect Home</span> To Live With Your Family</h1>
-                    <p class="animated fadeIn mb-4 pb-2">Vero elitr justo clita lorem. Ipsum dolor at sed stet
-                        sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr.</p>
+                    <p class="animated fadeIn mb-4 pb-2">Explore a wide range of properties listed by owners and agents. Whether you're looking to buy, sell, or rent,
+                        Kotli Estate connects you with the best options in the market.</p>
                     <a href="" class="btn btn-primary py-3 px-5 me-3 animated fadeIn">Get Started</a>
                 </div>
                 <div class="col-md-6 animated fadeIn">
@@ -33,7 +33,15 @@
                         <div class="col-md-10">
                             <div class="row g-2">
                                 <div class="col-md-6">
-                                    <input type="text" name="SearchedKeyword" class="form-control border-0 py-3" placeholder="Search Keyword">
+                                    <select type="text" name="SearchedKeyword" class="form-control border-0 py-3">
+                                        <option>-----------------------------Select Your Title------------------------------</option>
+                                        @foreach (var item in Model.title)
+                                        {
+
+                                            <option>@item</option>
+                                        }
+
+                                    </select>
                                 </div>
                                 <div class="col-md-6">
                                     <select class="form-select border-0 py-3" name="SelectCatergory">
@@ -62,7 +70,8 @@
             <div class="container">
                 <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                     <h1 class="mb-3">Property Types</h1>
-                    <p>Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed rebum vero dolor duo.</p>
+                    <p>Explore a variety of property options, including residential, commercial, and rental properties. Whether you're looking for a new home, an office space, or
+                        an investment opportunity, Kotli Estate has the perfect listing for you</p>
                 </div>
                 <div class="row g-4">
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -169,12 +178,14 @@
                         </div>
                     </div>
                     <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                        <h1 class="mb-4">#1 Place To Find The Perfect Property</h1>
-                        <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                        <p><i class="fa fa-check text-primary me-3"></i>Tempor erat elitr rebum at clita</p>
-                        <p><i class="fa fa-check text-primary me-3"></i>Aliqu diam amet diam et eos</p>
-                        <p><i class="fa fa-check text-primary me-3"></i>Clita duo justo magna dolore erat amet</p>
-                        <a class="btn btn-primary py-3 px-5 mt-3" href="">Read More</a>
+                        <h1 class="mb-4">Kotli Estate – Your Trusted Real Estate Partner</h1>
+                        <p class="mb-4">Kotli Estate is a reliable and modern real estate platform where you can buy, sell, rent, and share properties effortlessly. Our priority is to provide you with the best 
+                            and most affordable property listings that match your needs and budget.</p>
+                        <p><i class="fa fa-check text-primary me-3"></i><b>Verified Listings</b>– Only authentic and genuine properties.</p>
+                        <p><i class="fa fa-check text-primary me-3"></i> <b>Easy & Secure Deals</b>– Ensuring smooth and secure transactions.</p>
+                        <p><i class="fa fa-check text-primary me-3"></i><b>Buy, Sell & Rent</b> – Share your property and connect with potential buyers.</p>
+                       
+                       
                     </div>
                 </div>
             </div>
@@ -189,7 +200,8 @@
                     <div class="col-lg-6">
                         <div class="text-start mx-auto mb-5 wow slideInLeft" data-wow-delay="0.1s">
                             <h1 class="mb-3">Property Listing</h1>
-                            <p>Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore lorem kasd vero ipsum sit eirmod sit diam justo sed rebum.</p>
+                            <p>Find your ideal home, plot, or commercial property with Kotli Estate. We provide a wide range of verified listings, 
+                                ensuring you get the best deals at competitive prices.</p>
                         </div>
                     </div>
                     <div class="col-lg-6 text-start text-lg-end wow slideInRight" data-wow-delay="0.1s">

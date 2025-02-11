@@ -23,13 +23,7 @@ public class property_form : PageModel
         this.env = env;
     }
 
-    public void OnGet()
-    {
-        
-        category = db.tbl_property.Select(t => t.Category).ToList();
-        
-    }
-
+   
     public IActionResult OnPost()
     {
         string ImageName = myProperty.picture.FileName.ToString();

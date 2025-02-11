@@ -7453,6 +7453,10 @@
       "PackagePath": "staticwebassets\\img\\about.jpg"
     },
     {
+      "Id": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\img\\backpro.jpg",
+      "PackagePath": "staticwebassets\\img\\backpro.jpg"
+    },
+    {
       "Id": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\img\\call-to-action.jpg",
       "PackagePath": "staticwebassets\\img\\call-to-action.jpg"
     },
@@ -7977,12 +7981,28 @@
       "PackagePath": "staticwebassets\\uploaded_image\\property\\1.png"
     },
     {
+      "Id": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\uploaded_image\\property\\10.png",
+      "PackagePath": "staticwebassets\\uploaded_image\\property\\10.png"
+    },
+    {
+      "Id": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\uploaded_image\\property\\13.png",
+      "PackagePath": "staticwebassets\\uploaded_image\\property\\13.png"
+    },
+    {
       "Id": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\uploaded_image\\property\\2.png",
       "PackagePath": "staticwebassets\\uploaded_image\\property\\2.png"
     },
     {
       "Id": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\uploaded_image\\property\\3.png",
       "PackagePath": "staticwebassets\\uploaded_image\\property\\3.png"
+    },
+    {
+      "Id": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\uploaded_image\\property\\5.png",
+      "PackagePath": "staticwebassets\\uploaded_image\\property\\5.png"
+    },
+    {
+      "Id": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\uploaded_image\\property\\6.png",
+      "PackagePath": "staticwebassets\\uploaded_image\\property\\6.png"
     },
     {
       "Id": "D:\\FYProject\\KotliEstate\\KotliEstate\\wwwroot\\uploaded_image\\testimonial\\WhatsApp Image 2025-01-29 at 13.00.09_eaff1fd5.jpg",

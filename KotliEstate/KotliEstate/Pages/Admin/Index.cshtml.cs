@@ -56,9 +56,9 @@ namespace KotliEstate.Pages.Admin
         {
             CountOfRent = db.tbl_property.Where(x => x.Category == "Rent").Count();
             
-            CountOfSales = db.tbl_property.Where(x => x.Category == "Sales").Count();
+            CountOfSales = db.tbl_property.Where(x => x.Category == "Sale").Count();
             
-            CountOfNotApproved = db.tbl_property.Where(x => x.Status == "NotApproved").Count();
+            CountOfNotApproved = db.tbl_property.Where(x => x.Status == "Not Approved").Count();
             
             CountOfApproved = db.tbl_property.Where(x => x.Status == "Approved").Count();
         }

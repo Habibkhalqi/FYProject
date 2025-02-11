@@ -13,12 +13,14 @@ public class index : PageModel
 
     public Profile Mypro { get; set; }
     public CategoryViewModel count { get; set; } = new CategoryViewModel();
+    public List<string> title { get; set; }
     public index(AppDbContext db)
     {
         this.db = db;
     }
     public void OnGet()
     {
+        title = db.tbl_property.Select(x => x.Title).ToList();
         ListOfProperties = db.tbl_property.ToList();
         Mypro = db.tbl_Profile.FirstOrDefault();
         review = db.tbl_testimonial.ToList();
