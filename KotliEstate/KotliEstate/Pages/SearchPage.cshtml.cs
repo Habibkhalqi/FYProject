@@ -17,7 +17,7 @@ public class SearchPage : PageModel
     
     public void OnPost(string SearchedKeyword, string SelectCatergory)
     {
-        SearchProperty = db.tbl_property.Where(x=> x.Title.Contains(SearchedKeyword) && x.Category==SelectCatergory).ToList();
+        SearchProperty = db.tbl_property.Where(x=> x.Types_Of_Properties.Contains(SearchedKeyword) && x.Category==SelectCatergory).ToList();
         if (SearchProperty.Count>0)
         {
             ViewData["flag"] = "true";

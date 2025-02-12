@@ -20,7 +20,7 @@ public class index : PageModel
     }
     public void OnGet()
     {
-        title = db.tbl_property.Select(x => x.Title).ToList();
+        title = db.tbl_property.Select(x => x.Types_Of_Properties).ToList();
         ListOfProperties = db.tbl_property.ToList();
         Mypro = db.tbl_Profile.FirstOrDefault();
         review = db.tbl_testimonial.ToList();

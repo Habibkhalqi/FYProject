@@ -6,7 +6,7 @@ namespace KotliEstate.Pages;
 
 public class property_for_sales : PageModel
 {
-    public List<property> ListOfProperties { get; set; } = new();
+    public List<property> ListOfProperties { get; set; } 
     private AppDbContext db;
 
     public property_for_sales(AppDbContext db)
