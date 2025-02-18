@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "D:\\FYProject\\KotliEstate\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D16660E2-45CC-48E4-82E6-CAE1920D2730}|KotliEstate\\KotliEstate.csproj|d:\\fyproject\\kotliestate\\kotliestate\\pages\\admin\\property\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D16660E2-45CC-48E4-82E6-CAE1920D2730}|KotliEstate\\KotliEstate.csproj|solutionrelative:kotliestate\\pages\\admin\\property\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D16660E2-45CC-48E4-82E6-CAE1920D2730}|KotliEstate\\KotliEstate.csproj|d:\\fyproject\\kotliestate\\kotliestate\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D16660E2-45CC-48E4-82E6-CAE1920D2730}|KotliEstate\\KotliEstate.csproj|solutionrelative:kotliestate\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D16660E2-45CC-48E4-82E6-CAE1920D2730}|KotliEstate\\KotliEstate.csproj|d:\\fyproject\\kotliestate\\kotliestate\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D16660E2-45CC-48E4-82E6-CAE1920D2730}|KotliEstate\\KotliEstate.csproj|solutionrelative:kotliestate\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D16660E2-45CC-48E4-82E6-CAE1920D2730}|KotliEstate\\KotliEstate.csproj|d:\\fyproject\\kotliestate\\kotliestate\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D16660E2-45CC-48E4-82E6-CAE1920D2730}|KotliEstate\\KotliEstate.csproj|solutionrelative:kotliestate\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D16660E2-45CC-48E4-82E6-CAE1920D2730}|KotliEstate\\KotliEstate.csproj|d:\\fyproject\\kotliestate\\kotliestate\\pages\\admin\\property\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D16660E2-45CC-48E4-82E6-CAE1920D2730}|KotliEstate\\KotliEstate.csproj|solutionrelative:kotliestate\\pages\\admin\\property\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D16660E2-45CC-48E4-82E6-CAE1920D2730}|KotliEstate\\KotliEstate.csproj|d:\\fyproject\\kotliestate\\kotliestate\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D16660E2-45CC-48E4-82E6-CAE1920D2730}|KotliEstate\\KotliEstate.csproj|solutionrelative:kotliestate\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D16660E2-45CC-48E4-82E6-CAE1920D2730}|KotliEstate\\KotliEstate.csproj|d:\\fyproject\\kotliestate\\kotliestate\\pages\\admin\\property\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D16660E2-45CC-48E4-82E6-CAE1920D2730}|KotliEstate\\KotliEstate.csproj|solutionrelative:kotliestate\\pages\\admin\\property\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D16660E2-45CC-48E4-82E6-CAE1920D2730}|KotliEstate\\KotliEstate.csproj|d:\\fyproject\\kotliestate\\kotliestate\\pages\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D16660E2-45CC-48E4-82E6-CAE1920D2730}|KotliEstate\\KotliEstate.csproj|solutionrelative:kotliestate\\pages\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D16660E2-45CC-48E4-82E6-CAE1920D2730}|KotliEstate\\KotliEstate.csproj|d:\\fyproject\\kotliestate\\kotliestate\\pages\\admin\\testimonial\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D16660E2-45CC-48E4-82E6-CAE1920D2730}|KotliEstate\\KotliEstate.csproj|solutionrelative:kotliestate\\pages\\admin\\testimonial\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D16660E2-45CC-48E4-82E6-CAE1920D2730}|KotliEstate\\KotliEstate.csproj|d:\\fyproject\\kotliestate\\kotliestate\\migrations\\20250216112334_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D16660E2-45CC-48E4-82E6-CAE1920D2730}|KotliEstate\\KotliEstate.csproj|solutionrelative:kotliestate\\migrations\\20250216112334_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,57 +34,81 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\FYProject\\KotliEstate\\KotliEstate\\Pages\\Admin\\Property\\Create.cshtml",
-              "RelativeDocumentMoniker": "KotliEstate\\Pages\\Admin\\Property\\Create.cshtml",
-              "ToolTip": "D:\\FYProject\\KotliEstate\\KotliEstate\\Pages\\Admin\\Property\\Create.cshtml",
-              "RelativeToolTip": "KotliEstate\\Pages\\Admin\\Property\\Create.cshtml",
-              "ViewState": "AgIAAGkAAAAAaWZmZuYswAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "index.cshtml",
+              "DocumentMoniker": "D:\\FYProject\\KotliEstate\\KotliEstate\\Pages\\index.cshtml",
+              "RelativeDocumentMoniker": "KotliEstate\\Pages\\index.cshtml",
+              "ToolTip": "D:\\FYProject\\KotliEstate\\KotliEstate\\Pages\\index.cshtml",
+              "RelativeToolTip": "KotliEstate\\Pages\\index.cshtml",
+              "ViewState": "AgIAAO0AAABAZmZmZmYswPsAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-04T13:53:34.867Z",
+              "WhenOpened": "2025-02-17T18:19:31.884Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "D:\\FYProject\\KotliEstate\\KotliEstate\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "KotliEstate\\Data\\AppDbContext.cs",
-              "ToolTip": "D:\\FYProject\\KotliEstate\\KotliEstate\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "KotliEstate\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "index.cshtml.cs",
+              "DocumentMoniker": "D:\\FYProject\\KotliEstate\\KotliEstate\\Pages\\index.cshtml.cs",
+              "RelativeDocumentMoniker": "KotliEstate\\Pages\\index.cshtml.cs",
+              "ToolTip": "D:\\FYProject\\KotliEstate\\KotliEstate\\Pages\\index.cshtml.cs",
+              "RelativeToolTip": "KotliEstate\\Pages\\index.cshtml.cs",
+              "ViewState": "AgIAABIAAAAAm5mZmZkkwBgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T10:10:34.285Z",
+              "WhenOpened": "2025-02-16T11:25:27.721Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20250216112334_initial.cs",
+              "DocumentMoniker": "D:\\FYProject\\KotliEstate\\KotliEstate\\Migrations\\20250216112334_initial.cs",
+              "RelativeDocumentMoniker": "KotliEstate\\Migrations\\20250216112334_initial.cs",
+              "ToolTip": "D:\\FYProject\\KotliEstate\\KotliEstate\\Migrations\\20250216112334_initial.cs",
+              "RelativeToolTip": "KotliEstate\\Migrations\\20250216112334_initial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T11:23:35.064Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Edit.cshtml.cs",
-              "DocumentMoniker": "D:\\FYProject\\KotliEstate\\KotliEstate\\Pages\\Admin\\Property\\Edit.cshtml.cs",
-              "RelativeDocumentMoniker": "KotliEstate\\Pages\\Admin\\Property\\Edit.cshtml.cs",
-              "ToolTip": "D:\\FYProject\\KotliEstate\\KotliEstate\\Pages\\Admin\\Property\\Edit.cshtml.cs",
-              "RelativeToolTip": "KotliEstate\\Pages\\Admin\\Property\\Edit.cshtml.cs",
-              "ViewState": "AgIAABYAAACgY2ZmZmYswDoAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T05:24:18.612Z"
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\FYProject\\KotliEstate\\KotliEstate\\appsettings.json",
+              "RelativeDocumentMoniker": "KotliEstate\\appsettings.json",
+              "ToolTip": "D:\\FYProject\\KotliEstate\\KotliEstate\\appsettings.json",
+              "RelativeToolTip": "KotliEstate\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-16T11:22:24.84Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\FYProject\\KotliEstate\\KotliEstate\\Pages\\Admin\\Property\\Edit.cshtml",
-              "RelativeDocumentMoniker": "KotliEstate\\Pages\\Admin\\Property\\Edit.cshtml",
-              "ToolTip": "D:\\FYProject\\KotliEstate\\KotliEstate\\Pages\\Admin\\Property\\Edit.cshtml",
-              "RelativeToolTip": "KotliEstate\\Pages\\Admin\\Property\\Edit.cshtml",
-              "ViewState": "AgIAAAcAAAAAPzMzMzMbwAAAAAAAAAAAAAAAAA==",
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "D:\\FYProject\\KotliEstate\\KotliEstate\\Pages\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "KotliEstate\\Pages\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "D:\\FYProject\\KotliEstate\\KotliEstate\\Pages\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "KotliEstate\\Pages\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-03T05:19:25.978Z"
+              "WhenOpened": "2025-02-15T10:15:33.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\FYProject\\KotliEstate\\KotliEstate\\Pages\\Admin\\Testimonial\\Create.cshtml",
+              "RelativeDocumentMoniker": "KotliEstate\\Pages\\Admin\\Testimonial\\Create.cshtml",
+              "ToolTip": "D:\\FYProject\\KotliEstate\\KotliEstate\\Pages\\Admin\\Testimonial\\Create.cshtml",
+              "RelativeToolTip": "KotliEstate\\Pages\\Admin\\Testimonial\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-15T10:15:01.383Z"
             }
           ]
         }

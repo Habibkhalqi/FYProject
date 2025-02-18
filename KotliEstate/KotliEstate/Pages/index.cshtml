@@ -1,343 +1,356 @@
 @page
 @model KotliEstate.Pages.index
 
-   <!-- Header Start -->
-        <div class="container-fluid header bg-white p-0">
-            <div class="row g-0 align-items-center flex-column-reverse flex-md-row">
-                <div class="col-md-6 p-5 mt-lg-5">
-                    <h1 class="display-5 animated fadeIn mb-4">Find A <span class="text-primary">Perfect Home</span> To Live With Your Family</h1>
-                    <p class="animated fadeIn mb-4 pb-2">Explore a wide range of properties listed by owners and agents. Whether you're looking to buy, sell, or rent,
-                        Kotli Estate connects you with the best options in the market.</p>
-                    <a href="" class="btn btn-primary py-3 px-5 me-3 animated fadeIn">Get Started</a>
+<!-- Header Start -->
+<div class="container-fluid header bg-white p-0">
+    <div class="row g-0 align-items-center flex-column-reverse flex-md-row">
+        <div class="col-md-6 p-5 mt-lg-5">
+            <h1 class="display-5 animated fadeIn mb-4">Find A <span class="text-primary">Perfect Home</span> To Live With Your Family</h1>
+            <p class="animated fadeIn mb-4 pb-2">Explore a wide range of properties listed by owners and agents. Whether you're looking to buy, sell, or rent,
+                Kotli Estate connects you with the best options in the market.</p>
+            <a href="" class="btn btn-primary py-3 px-5 me-3 animated fadeIn">Get Started</a>
+        </div>
+        <div class="col-md-6 animated fadeIn">
+            <div class="owl-carousel header-carousel">
+                <div class="owl-carousel-item">
+                    <img class="img-fluid" src="img/carousel-1.jpg" alt="">
                 </div>
-                <div class="col-md-6 animated fadeIn">
-                    <div class="owl-carousel header-carousel">
-                        <div class="owl-carousel-item">
-                            <img class="img-fluid" src="img/carousel-1.jpg" alt="">
-                        </div>
-                        <div class="owl-carousel-item">
-                            <img class="img-fluid" src="img/carousel-2.jpg" alt="">
-                        </div>
-                    </div>
+                <div class="owl-carousel-item">
+                    <img class="img-fluid" src="img/carousel-2.jpg" alt="">
                 </div>
             </div>
         </div>
-        <!-- Header End -->
+    </div>
+</div>
+<!-- Header End -->
 
 
-        <!-- Search Start -->
-        <div class="container-fluid bg-primary mb-5 wow fadeIn" data-wow-delay="0.1s" style="padding: 35px;">
-            <div class="container">
-                <form method="post" asp-page="SearchPage">
+<!-- Search Start -->
+<div class="container-fluid bg-primary mb-5 wow fadeIn" data-wow-delay="0.1s" style="padding: 35px;">
+    <div class="container">
+        <form method="post" asp-page="SearchPage">
+            <div class="row g-2">
+                <div class="col-md-10">
                     <div class="row g-2">
-                        <div class="col-md-10">
-                            <div class="row g-2">
-                                <div class="col-md-6">
-                                    <select type="text" name="SearchedKeyword" class="form-control border-0 py-3">
-                                        <option>-----------------------------Select Your Title------------------------------</option>
-                                        @foreach (var item in Model.title)
-                                        {
+                        <div class="col-md-6">
+                            <select type="text" name="SearchedKeyword" class="form-control border-0 py-3">
+                                <option>-----------------------------Select Your Title------------------------------</option>
+                                <option>Appartment</option>
+                                <option>Villa</option>
+                                <option>Home</option>
+                                <option>Office</option>
+                                <option>Building</option>
+                                <option>TownHouse</option>
+                                <option>Shop</option>
+                                <option>Garage</option>
+                                @*
+                                @foreach (var item in Model.title)
+                                {
 
-                                            <option>@item</option>
-                                        }
+                                    <option>@item</option>
+                                }
+                                *@
 
-                                    </select>
-                                </div>
-                                <div class="col-md-6">
-                                    <select class="form-select border-0 py-3" name="SelectCatergory">
-                                        <option selected>--------------------------------Select Category-------------------------------</option>
-                                        <option value="Sell">Sell</option>
-                                        <option value="Rent">Rent</option>
-
-                                    </select>
-                                </div>
-
-                            </div>
+                            </select>
                         </div>
-                        <div class="col-md-2">
-                            <button class="btn btn-dark border-0 w-100 py-3" type="submit">Search</button>
+                        <div class="col-md-6">
+                            <select class="form-select border-0 py-3" name="SelectCatergory">
+                                <option selected>--------------------------------Select Category-------------------------------</option>
+                                <option value="Sale">Sale</option>
+                                <option value="Rent">Rent</option>
+
+                            </select>
                         </div>
+
                     </div>
-                </form>
-               
+                </div>
+                <div class="col-md-2">
+                    <button class="btn btn-dark border-0 w-100 py-3" type="submit">Search</button>
+                </div>
+            </div>
+        </form>
+
+    </div>
+</div>
+<!-- Search End -->
+
+
+<!-- Category Start -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+            <h1 class="mb-3">Property Types</h1>
+            <p>Explore a variety of property options, including residential, commercial, and rental properties. Whether you're looking for a new home, an office space, or
+                an investment opportunity, Kotli Estate has the perfect listing for you</p>
+        </div>
+        <div class="row g-4">
+            <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                <a class="cat-item d-block bg-light text-center rounded p-3" href="">
+                    <div class="rounded p-4">
+                        <div class="icon mb-3">
+                            <img class="img-fluid" src="img/icon-apartment.png" alt="Icon">
+                        </div>
+                        <h6>Apartment</h6>
+                        <span>@Model.count.Appartment Properties</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                <a class="cat-item d-block bg-light text-center rounded p-3" href="">
+                    <div class="rounded p-4">
+                        <div class="icon mb-3">
+                            <img class="img-fluid" src="img/icon-villa.png" alt="Icon">
+                        </div>
+                        <h6>Villa</h6>
+                        <span>@Model.count.Villa Properties</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                <a class="cat-item d-block bg-light text-center rounded p-3" href="">
+                    <div class="rounded p-4">
+                        <div class="icon mb-3">
+                            <img class="img-fluid" src="img/icon-house.png" alt="Icon">
+                        </div>
+                        <h6>Home</h6>
+                        <span>@Model.count.Home Properties</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                <a class="cat-item d-block bg-light text-center rounded p-3" href="">
+                    <div class="rounded p-4">
+                        <div class="icon mb-3">
+                            <img class="img-fluid" src="img/icon-housing.png" alt="Icon">
+                        </div>
+                        <h6>Office</h6>
+                        <span>@Model.count.Office Properties</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                <a class="cat-item d-block bg-light text-center rounded p-3" href="">
+                    <div class="rounded p-4">
+                        <div class="icon mb-3">
+                            <img class="img-fluid" src="img/icon-building.png" alt="Icon">
+                        </div>
+                        <h6>Building</h6>
+                        <span>@Model.count.Building Properties</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                <a class="cat-item d-block bg-light text-center rounded p-3" href="">
+                    <div class="rounded p-4">
+                        <div class="icon mb-3">
+                            <img class="img-fluid" src="img/icon-neighborhood.png" alt="Icon">
+                        </div>
+                        <h6>Townhouse</h6>
+                        <span>@Model.count.TownHouse Properties</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                <a class="cat-item d-block bg-light text-center rounded p-3" href="">
+                    <div class="rounded p-4">
+                        <div class="icon mb-3">
+                            <img class="img-fluid" src="img/icon-condominium.png" alt="Icon">
+                        </div>
+                        <h6>Shop</h6>
+                        <span>@Model.count.Shop Properties</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                <a class="cat-item d-block bg-light text-center rounded p-3" href="">
+                    <div class="rounded p-4">
+                        <div class="icon mb-3">
+                            <img class="img-fluid" src="img/icon-luxury.png" alt="Icon">
+                        </div>
+                        <h6>Garage</h6>
+                        <span>@Model.count.Garage Properties</span>
+                    </div>
+                </a>
             </div>
         </div>
-        <!-- Search End -->
+    </div>
+</div>
+<!-- Category End -->
 
 
-        <!-- Category Start -->
-        <div class="container-xxl py-5">
-            <div class="container">
-                <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                    <h1 class="mb-3">Property Types</h1>
-                    <p>Explore a variety of property options, including residential, commercial, and rental properties. Whether you're looking for a new home, an office space, or
-                        an investment opportunity, Kotli Estate has the perfect listing for you</p>
+<!-- About Start -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="row g-5 align-items-center">
+            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                <div class="about-img position-relative overflow-hidden p-5 pe-0">
+                    <img class="img-fluid w-100" src="img/about.jpg">
                 </div>
+            </div>
+            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                <h1 class="mb-4">Kotli Estate – Your Trusted Real Estate Partner</h1>
+                <p class="mb-4">Kotli Estate is a reliable and modern real estate platform where you can buy, sell, rent, and share properties effortlessly. Our priority is to provide you with the best
+                    and most affordable property listings that match your needs and budget.</p>
+                <p><i class="fa fa-check text-primary me-3"></i><b>Verified Listings</b>– Only authentic and genuine properties.</p>
+                <p><i class="fa fa-check text-primary me-3"></i> <b>Easy & Secure Deals</b>– Ensuring smooth and secure transactions.</p>
+                <p><i class="fa fa-check text-primary me-3"></i><b>Buy, Sell & Rent</b> – Share your property and connect with potential buyers.</p>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- About End -->
+
+
+<!-- Property List Start -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="row g-0 gx-5 align-items-end">
+            <div class="col-lg-6">
+                <div class="text-start mx-auto mb-5 wow slideInLeft" data-wow-delay="0.1s">
+                    <h1 class="mb-3">Property Listing</h1>
+                    <p>Find your ideal home, plot, or commercial property with Kotli Estate. We provide a wide range of verified listings,
+                        ensuring you get the best deals at competitive prices.</p>
+                </div>
+            </div>
+            <div class="col-lg-6 text-start text-lg-end wow slideInRight" data-wow-delay="0.1s">
+                <ul class="nav nav-pills d-inline-flex justify-content-end mb-5">
+                    <li class="nav-item me-2">
+                        <a class="btn btn-outline-primary active" data-bs-toggle="pill" href="#tab-1">For Sale</a>
+                    </li>
+                    <li class="nav-item me-2">
+                        <a class="btn btn-outline-primary" data-bs-toggle="pill" href="#tab-2">For Rent</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="tab-content">
+            <div id="tab-1" class="tab-pane fade show p-0 active">
                 <div class="row g-4">
-                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <a class="cat-item d-block bg-light text-center rounded p-3" href="">
-                            <div class="rounded p-4">
-                                <div class="icon mb-3">
-                                    <img class="img-fluid" src="img/icon-apartment.png" alt="Icon">
+                    @foreach (var item in @Model.ListOfProperties.Where(x=>x.Category == "Sale"))
+                    {
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="property-item rounded overflow-hidden">
+                                <div class="position-relative overflow-hidden">
+                                    <a href=""><img class="img-fluid" src="/uploaded_image/property/@item.image" alt=""></a>
+                                    <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">@item.Category </div>
+                                    <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">@item.Types_Of_Properties</div>
                                 </div>
-                                <h6>Apartment</h6>
-                                <span>@Model.count.Appartment Properties</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <a class="cat-item d-block bg-light text-center rounded p-3" href="">
-                            <div class="rounded p-4">
-                                <div class="icon mb-3">
-                                    <img class="img-fluid" src="img/icon-villa.png" alt="Icon">
+                                <div class="p-4 pb-0">
+                                    <h5 class="text-primary mb-3">$@item.Price</h5>
+                                    <a class="d-block h5 mb-2" href="">@item.Title</a>
+                                    <p><i class="fa fa-map-marker-alt text-primary me-2"></i>@item.Address</p>
                                 </div>
-                                <h6>Villa</h6>
-                                <span>@Model.count.Villa Properties</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <a class="cat-item d-block bg-light text-center rounded p-3" href="">
-                            <div class="rounded p-4">
-                                <div class="icon mb-3">
-                                    <img class="img-fluid" src="img/icon-house.png" alt="Icon">
+                                <div class="d-flex border-top">
+                                    <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i>@item.Area Sqft</small>
+                                    <small class="flex-fill text-center border-end py-2"><i class="fa fa-bed text-primary me-2"></i>@item.Number_Of_Bedrooms Bed</small>
+                                    <small class="flex-fill text-center py-2"><i class="fa fa-bath text-primary me-2"></i>@item.Number_Of_Bathrooms Bath</small>
                                 </div>
-                                <h6>Home</h6>
-                                <span>@Model.count.Home Properties</span>
                             </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
-                        <a class="cat-item d-block bg-light text-center rounded p-3" href="">
-                            <div class="rounded p-4">
-                                <div class="icon mb-3">
-                                    <img class="img-fluid" src="img/icon-housing.png" alt="Icon">
+                        </div>
+                    }
+
+
+                </div>
+            </div>
+            <div id="tab-2" class="tab-pane fade show p-0 active">
+                <div class="row g-4">
+                    @{
+						var cat = Model.ListOfProperties.Where(x => x.Category == "Rent");
+                        foreach (var item in cat)
+                    {
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="property-item rounded overflow-hidden">
+                                <div class="position-relative overflow-hidden">
+                                    <a href=""><img class="img-fluid" src="/uploaded_image/property/@item.image" alt=""></a>
+                                    <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">@item.Category </div>
+                                    <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">@item.Types_Of_Properties</div>
                                 </div>
-                                <h6>Office</h6>
-                                <span>@Model.count.Office Properties</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <a class="cat-item d-block bg-light text-center rounded p-3" href="">
-                            <div class="rounded p-4">
-                                <div class="icon mb-3">
-                                    <img class="img-fluid" src="img/icon-building.png" alt="Icon">
+                                <div class="p-4 pb-0">
+                                    <h5 class="text-primary mb-3">$@item.Price</h5>
+                                    <a class="d-block h5 mb-2" href="">@item.Title</a>
+                                    <p><i class="fa fa-map-marker-alt text-primary me-2"></i>@item.Address</p>
                                 </div>
-                                <h6>Building</h6>
-                                <span>@Model.count.Building Properties</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <a class="cat-item d-block bg-light text-center rounded p-3" href="">
-                            <div class="rounded p-4">
-                                <div class="icon mb-3">
-                                    <img class="img-fluid" src="img/icon-neighborhood.png" alt="Icon">
+                                <div class="d-flex border-top">
+                                    <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i>@item.Area Sqft</small>
+                                    <small class="flex-fill text-center border-end py-2"><i class="fa fa-bed text-primary me-2"></i>@item.Number_Of_Bedrooms Bed</small>
+                                    <small class="flex-fill text-center py-2"><i class="fa fa-bath text-primary me-2"></i>@item.Number_Of_Bathrooms Bath</small>
                                 </div>
-                                <h6>Townhouse</h6>
-                                <span>@Model.count.TownHouse Properties</span>
                             </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <a class="cat-item d-block bg-light text-center rounded p-3" href="">
-                            <div class="rounded p-4">
-                                <div class="icon mb-3">
-                                    <img class="img-fluid" src="img/icon-condominium.png" alt="Icon">
-                                </div>
-                                <h6>Shop</h6>
-                                <span>@Model.count.Shop Properties</span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
-                        <a class="cat-item d-block bg-light text-center rounded p-3" href="">
-                            <div class="rounded p-4">
-                                <div class="icon mb-3">
-                                    <img class="img-fluid" src="img/icon-luxury.png" alt="Icon">
-                                </div>
-                                <h6>Garage</h6>
-                                <span>@Model.count.Garage Properties</span>
-                            </div>
-                        </a>
+                        </div>
+                    }
+                    }
+
+                    <div class="col-12 text-center wow fadeInUp" data-wow-delay="0.1s">
+                        <a class="btn btn-primary py-3 px-5" href="">Browse More Property</a>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Category End -->
+    </div>
+</div>
+<!-- Property List End -->
 
 
-        <!-- About Start -->
-        <div class="container-xxl py-5">
-            <div class="container">
+<!-- Call to Action Start -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="bg-light rounded p-3">
+            <div class="bg-white rounded p-4" style="border: 1px dashed rgba(0, 185, 142, .3)">
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
-                        <div class="about-img position-relative overflow-hidden p-5 pe-0">
-                            <img class="img-fluid w-100" src="img/about.jpg">
-                        </div>
+                        <img class="img-fluid rounded w-100" src="img/call-to-action.jpg" alt="">
                     </div>
                     <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                        <h1 class="mb-4">Kotli Estate – Your Trusted Real Estate Partner</h1>
-                        <p class="mb-4">Kotli Estate is a reliable and modern real estate platform where you can buy, sell, rent, and share properties effortlessly. Our priority is to provide you with the best 
-                            and most affordable property listings that match your needs and budget.</p>
-                        <p><i class="fa fa-check text-primary me-3"></i><b>Verified Listings</b>– Only authentic and genuine properties.</p>
-                        <p><i class="fa fa-check text-primary me-3"></i> <b>Easy & Secure Deals</b>– Ensuring smooth and secure transactions.</p>
-                        <p><i class="fa fa-check text-primary me-3"></i><b>Buy, Sell & Rent</b> – Share your property and connect with potential buyers.</p>
-                       
-                       
+                        <div class="mb-4">
+                            <h1 class="mb-3">Contact With Us</h1>
+                            <p>To Disucss With Us Regarding Any Propery Either It is For Sell Or For Rent Please Contact Us.</p>
+                        </div>
+                        <a href="http://wa.me/@Model.Mypro.Phone" class="btn btn-primary py-3 px-4 me-2"><i class="fa fa-phone-alt me-2"></i>Make A Call</a>
+                        <a href=""  onclick="Calendly.initPopupWidget({url: 'https://calendly.com/habibullahbalti444/30min'});return false;" class="btn btn-dark py-3 px-4"><i class="fa fa-calendar-alt me-2"></i>Get Appoinment</a>
+
+                        <!-- Calendly link widget begin -->
+                        <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+                        <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+
+                        <!-- Calendly link widget end -->
                     </div>
                 </div>
             </div>
         </div>
-        <!-- About End -->
+    </div>
+</div>
+<!-- Call to Action End -->
 
 
-        <!-- Property List Start -->
-        <div class="container-xxl py-5">
-            <div class="container">
-                <div class="row g-0 gx-5 align-items-end">
-                    <div class="col-lg-6">
-                        <div class="text-start mx-auto mb-5 wow slideInLeft" data-wow-delay="0.1s">
-                            <h1 class="mb-3">Property Listing</h1>
-                            <p>Find your ideal home, plot, or commercial property with Kotli Estate. We provide a wide range of verified listings, 
-                                ensuring you get the best deals at competitive prices.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 text-start text-lg-end wow slideInRight" data-wow-delay="0.1s">
-                        <ul class="nav nav-pills d-inline-flex justify-content-end mb-5">
-                            <li class="nav-item me-2">
-                                <a class="btn btn-outline-primary active" data-bs-toggle="pill" href="#tab-1">For Sale</a>
-                            </li>
-                            <li class="nav-item me-2">
-                                <a class="btn btn-outline-primary" data-bs-toggle="pill" href="#tab-2">For Rent</a>
-                            </li>
-                           
-                        </ul>
-                    </div>
-                </div>
-                <div class="tab-content">
-                    <div id="tab-1" class="tab-pane fade show p-0 active">
-                        <div class="row g-4">
-                            @foreach (var item in @Model.ListOfProperties.Where(x=>x.Category == "Sale"))
-                            {
-                                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                                    <div class="property-item rounded overflow-hidden">
-                                        <div class="position-relative overflow-hidden">
-                                            <a href=""><img class="img-fluid" src="/uploaded_image/property/@item.image" alt=""></a>
-                                            <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">@item.Category </div>
-                                            <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">@item.Types_Of_Properties</div>
-                                        </div>
-                                        <div class="p-4 pb-0">
-                                            <h5 class="text-primary mb-3">$@item.Price</h5>
-                                            <a class="d-block h5 mb-2" href="">@item.Title</a>
-                                            <p><i class="fa fa-map-marker-alt text-primary me-2"></i>@item.Address</p>
-                                        </div>
-                                        <div class="d-flex border-top">
-                                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i>@item.Area Sqft</small>
-                                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-bed text-primary me-2"></i>@item.Number_Of_Bedrooms Bed</small>
-                                            <small class="flex-fill text-center py-2"><i class="fa fa-bath text-primary me-2"></i>@item.Number_Of_Bathrooms Bath</small>
-                                        </div>
-                                    </div>
-                                </div>
-                            }
-                        
-                          
-                        </div>
-                    </div>
-                    <div id="tab-2" class="tab-pane fade show p-0 active">
-                        <div class="row g-4">
-                            @foreach (var item in @Model.ListOfProperties.Where(x=>x.Category == "Rent"))
-                            {
-                                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                                    <div class="property-item rounded overflow-hidden">
-                                        <div class="position-relative overflow-hidden">
-                                            <a href=""><img class="img-fluid" src="/uploaded_image/property/@item.image" alt=""></a>
-                                            <div class="bg-primary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">@item.Category </div>
-                                            <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">@item.Types_Of_Properties</div>
-                                        </div>
-                                        <div class="p-4 pb-0">
-                                            <h5 class="text-primary mb-3">$@item.Price</h5>
-                                            <a class="d-block h5 mb-2" href="">@item.Title</a>
-                                            <p><i class="fa fa-map-marker-alt text-primary me-2"></i>@item.Address</p>
-                                        </div>
-                                        <div class="d-flex border-top">
-                                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-ruler-combined text-primary me-2"></i>@item.Area Sqft</small>
-                                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-bed text-primary me-2"></i>@item.Number_Of_Bedrooms Bed</small>
-                                            <small class="flex-fill text-center py-2"><i class="fa fa-bath text-primary me-2"></i>@item.Number_Of_Bathrooms Bath</small>
-                                        </div>
-                                    </div>
-                                </div>
-                            }
-
-                            <div class="col-12 text-center wow fadeInUp" data-wow-delay="0.1s">
-                                <a class="btn btn-primary py-3 px-5" href="">Browse More Property</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+<!-- Testimonial Start -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+            <h1 class="mb-3">Our Clients Say!</h1>
         </div>
-        <!-- Property List End -->
-
-
-        <!-- Call to Action Start -->
-        <div class="container-xxl py-5">
-            <div class="container">
-                <div class="bg-light rounded p-3">
-                    <div class="bg-white rounded p-4" style="border: 1px dashed rgba(0, 185, 142, .3)">
-                        <div class="row g-5 align-items-center">
-                            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
-                                <img class="img-fluid rounded w-100" src="img/call-to-action.jpg" alt="">
-                            </div>
-                            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                                <div class="mb-4">
-                                    <h1 class="mb-3">Contact With Us</h1>
-                                    <p>To Disucss With Us Regarding Any Propery Either It is For Sell Or For Rent Please Contact Us.</p>
-                                </div>
-                                <a href="http://wa.me/@Model.Mypro.Phone" class="btn btn-primary py-3 px-4 me-2"><i class="fa fa-phone-alt me-2"></i>Make A Call</a>
-                                <a href=""  onclick="Calendly.initPopupWidget({url: 'https://calendly.com/habibullahbalti444/30min'});return false;" class="btn btn-dark py-3 px-4"><i class="fa fa-calendar-alt me-2"></i>Get Appoinment</a>
-
-                                <!-- Calendly link widget begin -->
-                                <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-                                <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-                                
-                                <!-- Calendly link widget end -->
+        <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+            @foreach (var item in Model.review)
+            {
+                <div class="testimonial-item bg-light rounded p-3">
+                    <div class="bg-white border rounded p-4">
+                        <p>@item.Review</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded" src="/uploaded_image/testimonial/@item.Image" style="width: 45px; height: 45px;">
+                            <div class="ps-3">
+                                <h6 class="fw-bold mb-1">@item.Name</h6>
+                                <small>@item.Professional</small>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <!-- Call to Action End -->
 
+            }
 
-        <!-- Testimonial Start -->
-        <div class="container-xxl py-5">
-            <div class="container">
-                <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                    <h1 class="mb-3">Our Clients Say!</h1>
-                </div>
-                <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
-                    @foreach (var item in Model.review)
-                    {
-                        <div class="testimonial-item bg-light rounded p-3">
-                            <div class="bg-white border rounded p-4">
-                                <p>@item.Review</p>
-                                <div class="d-flex align-items-center">
-                                    <img class="img-fluid flex-shrink-0 rounded" src="/uploaded_image/testimonial/@item.Image" style="width: 45px; height: 45px;">
-                                    <div class="ps-3">
-                                        <h6 class="fw-bold mb-1">@item.Name</h6>
-                                        <small>@item.Professional</small>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    
-                    }
-                   
-                </div>
-            </div>
         </div>
-        <!-- Testimonial End -->
+    </div>
+</div>
+<!-- Testimonial End -->
         

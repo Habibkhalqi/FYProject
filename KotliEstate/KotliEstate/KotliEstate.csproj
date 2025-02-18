@@ -13,6 +13,7 @@
     <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
         <OutputPath>bin\Release\net8.0</OutputPath>
         <RuntimeIdentifier>win-x86</RuntimeIdentifier>
+        <Optimize>false</Optimize>
     </PropertyGroup>
 
 

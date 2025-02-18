@@ -257,3 +257,4 @@ D:\FYProject\KotliEstate\KotliEstate\obj\Release\net8.0\win-x86\refint\KotliEsta
 D:\FYProject\KotliEstate\KotliEstate\obj\Release\net8.0\win-x86\KotliEstate.pdb
 D:\FYProject\KotliEstate\KotliEstate\obj\Release\net8.0\win-x86\KotliEstate.genruntimeconfig.cache
 D:\FYProject\KotliEstate\KotliEstate\obj\Release\net8.0\win-x86\ref\KotliEstate.dll
+D:\FYProject\KotliEstate\KotliEstate\obj\Release\net8.0\win-x86\staticwebassets.upToDateCheck.txt

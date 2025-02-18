@@ -11,7 +11,7 @@ public class index : PageModel
     public List<property> ListOfProperties { get; set; } = new();
     public List<testimonial> review { get; set; } = new();
 
-    public Profile Mypro { get; set; }
+    public Profile Mypro { get; set; } = new Profile();
     public CategoryViewModel count { get; set; } = new CategoryViewModel();
     public List<string> title { get; set; }
     public index(AppDbContext db)
@@ -20,7 +20,7 @@ public class index : PageModel
     }
     public void OnGet()
     {
-        title = db.tbl_property.Select(x => x.Types_Of_Properties).ToList();
+      //  title = db.tbl_property.Select(x => x.Types_Of_Properties).ToList();
         ListOfProperties = db.tbl_property.ToList();
         Mypro = db.tbl_Profile.FirstOrDefault();
         review = db.tbl_testimonial.ToList();

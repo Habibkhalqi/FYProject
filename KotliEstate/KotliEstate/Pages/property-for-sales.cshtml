@@ -14,7 +14,7 @@
                 <div class="tab-content">
                     <div id="tab-1" class="tab-pane fade show p-0 active">
                         <div class="row g-4">
-                            @foreach (var item in @Model.ListOfProperties.Where(x=>x.Category == "Sell"))
+                            @foreach (var item in @Model.ListOfProperties.Where(x=>x.Category == "Sale"))
                             {
                                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                                     <div class="property-item rounded overflow-hidden">
