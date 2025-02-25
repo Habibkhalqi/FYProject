@@ -5,7 +5,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
-var con = builder.Configuration.GetConnectionString("constring").ToString();
+var con = builder.Configuration.GetConnectionString("hosting").ToString();
 builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(con));
 builder.Services.AddSession();
 var app = builder.Build();

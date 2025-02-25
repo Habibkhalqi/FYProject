@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "M2VoRoH9kFQ=",
+  "dgSpecHash": "kqlEVrwiA54=",
   "success": true,
   "projectFilePath": "D:\\FYProject\\KotliEstate\\KotliEstate\\KotliEstate.csproj",
   "expectedPackageFiles": [
@@ -127,6 +127,8 @@
     "C:\\Users\\Habib Khalqi\\.nuget\\packages\\nuget.projectmodel\\6.11.0\\nuget.projectmodel.6.11.0.nupkg.sha512",
     "C:\\Users\\Habib Khalqi\\.nuget\\packages\\nuget.protocol\\6.11.0\\nuget.protocol.6.11.0.nupkg.sha512",
     "C:\\Users\\Habib Khalqi\\.nuget\\packages\\nuget.versioning\\6.11.0\\nuget.versioning.6.11.0.nupkg.sha512",
+    "C:\\Users\\Habib Khalqi\\.nuget\\packages\\runtime.any.system.runtime\\4.3.0\\runtime.any.system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\Habib Khalqi\\.nuget\\packages\\runtime.any.system.text.encoding\\4.3.0\\runtime.any.system.text.encoding.4.3.0.nupkg.sha512",
     "C:\\Users\\Habib Khalqi\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.6\\sqlitepclraw.bundle_e_sqlite3.2.1.6.nupkg.sha512",
     "C:\\Users\\Habib Khalqi\\.nuget\\packages\\sqlitepclraw.core\\2.1.6\\sqlitepclraw.core.2.1.6.nupkg.sha512",
     "C:\\Users\\Habib Khalqi\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.6\\sqlitepclraw.lib.e_sqlite3.2.1.6.nupkg.sha512",
@@ -151,6 +153,7 @@
     "C:\\Users\\Habib Khalqi\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
     "C:\\Users\\Habib Khalqi\\.nuget\\packages\\system.memory.data\\1.0.2\\system.memory.data.1.0.2.nupkg.sha512",
     "C:\\Users\\Habib Khalqi\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Habib Khalqi\\.nuget\\packages\\system.private.uri\\4.3.0\\system.private.uri.4.3.0.nupkg.sha512",
     "C:\\Users\\Habib Khalqi\\.nuget\\packages\\system.reflection.metadata\\7.0.0\\system.reflection.metadata.7.0.0.nupkg.sha512",
     "C:\\Users\\Habib Khalqi\\.nuget\\packages\\system.reflection.metadataloadcontext\\7.0.0\\system.reflection.metadataloadcontext.7.0.0.nupkg.sha512",
     "C:\\Users\\Habib Khalqi\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
@@ -168,7 +171,10 @@
     "C:\\Users\\Habib Khalqi\\.nuget\\packages\\system.threading.channels\\7.0.0\\system.threading.channels.7.0.0.nupkg.sha512",
     "C:\\Users\\Habib Khalqi\\.nuget\\packages\\system.threading.tasks.dataflow\\7.0.0\\system.threading.tasks.dataflow.7.0.0.nupkg.sha512",
     "C:\\Users\\Habib Khalqi\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
-    "C:\\Users\\Habib Khalqi\\.nuget\\packages\\system.windows.extensions\\7.0.0\\system.windows.extensions.7.0.0.nupkg.sha512"
+    "C:\\Users\\Habib Khalqi\\.nuget\\packages\\system.windows.extensions\\7.0.0\\system.windows.extensions.7.0.0.nupkg.sha512",
+    "C:\\Users\\Habib Khalqi\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\8.0.11\\microsoft.netcore.app.runtime.win-x86.8.0.11.nupkg.sha512",
+    "C:\\Users\\Habib Khalqi\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\8.0.11\\microsoft.windowsdesktop.app.runtime.win-x86.8.0.11.nupkg.sha512",
+    "C:\\Users\\Habib Khalqi\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\8.0.11\\microsoft.aspnetcore.app.runtime.win-x86.8.0.11.nupkg.sha512"
   ],
   "logs": []
 }
